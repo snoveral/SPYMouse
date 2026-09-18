@@ -1,0 +1,31 @@
+# 3ds Max Wavefront OBJ Exporter v0.94b - (c)2007 guruware
+# File Created: 10.08.2010 11:50:24
+
+mtllib world02_building04_origin.mtl
+
+#
+# object world02_building04
+#
+
+v  -45.8322 0.0000 -42.8325
+v  45.8322 0.0000 -42.8325
+v  45.8322 -0.0000 42.8325
+v  -45.8322 -0.0000 42.8325
+# 4 vertices
+
+vn 0.0000 -1.0000 -0.0000
+# 1 vertex normals
+
+vt 0.4871 0.7979 0.0000
+vt 0.7023 0.7979 0.0000
+vt 0.7023 0.9990 0.0000
+vt 0.4872 0.9990 0.0000
+# 4 texture coords
+
+g world02_building04
+usemtl world01_map02
+s 1
+f 1/1/1 2/2/1 3/3/1 
+f 3/3/1 4/4/1 1/1/1 
+# 2 faces
+

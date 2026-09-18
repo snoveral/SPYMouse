@@ -1,0 +1,138 @@
+
+<!--
+cx 		= cell x 
+cy 		= cell y
+Position 0,0 is the top left. 
+
+delay 	= frame speed in seconds, 1.0 = one second
+
+ox		= frame position offset x
+oy 		= frame position offset y
+
+-->
+<Animation version="1" image="sprites/thiefcat_idle.png" frameWidth="32" frameHeight="32">
+
+	<Sequence name="crash_00">
+		<Frame cx="0" cy="5" delay="0.2" ox="0" oy="0"/>
+		<Frame cx="1" cy="5" delay="0.2" ox="0" oy="0"/>
+		<Frame cx="2" cy="5" delay="0.2" ox="0" oy="0"/>
+		<Frame cx="0" cy="0" delay="0.2" ox="0" oy="0"/>
+	</Sequence>
+
+
+	<Sequence name="crash_01">
+		<Frame cx="3" cy="5" delay="0.2" ox="2" oy="0"/>
+		<Frame cx="4" cy="5" delay="0.2" ox="3" oy="0"/>
+		<Frame cx="5" cy="5" delay="0.2" ox="3" oy="0"/>
+		<Frame cx="0" cy="1" delay="0.2" ox="3" oy="1"/>
+	</Sequence>
+
+
+	<Sequence name="crash_02">
+		<Frame cx="6" cy="5" delay="0.2" ox="0" oy="0"/>
+		<Frame cx="7" cy="5" delay="0.2" ox="5" oy="0"/>
+		<Frame cx="0" cy="6" delay="0.2" ox="5" oy="0"/>
+		<Frame cx="0" cy="2" delay="0.2" ox="11" oy="11"/>
+	</Sequence>
+
+
+	<Sequence name="crash_03">
+		<Frame cx="1" cy="6" delay="0.2" ox="0" oy="0"/>
+		<Frame cx="2" cy="6" delay="0.2" ox="0" oy="0"/>
+		<Frame cx="3" cy="6" delay="0.2" ox="0" oy="0"/>
+		<Frame cx="0" cy="3" delay="0.2" ox="16.5" oy="10"/>
+	</Sequence>
+
+
+	<Sequence name="crash_04">
+		<Frame cx="4" cy="6" delay="0.2" ox="0" oy="0"/>
+		<Frame cx="5" cy="6" delay="0.2" ox="0" oy="0"/>
+		<Frame cx="6" cy="6" delay="0.2" ox="0" oy="0"/>
+		<Frame cx="0" cy="4" delay="0.2" ox="0" oy="2"/>
+
+	</Sequence>
+
+
+	<Sequence name="standing_up_stars_00">
+		<Frame cx="0" cy="0" delay="0.2" ox="0" oy="0"/>
+		<Frame cx="1" cy="0" delay="0.2" ox="0" oy="0"/>
+		<Frame cx="2" cy="0" delay="0.2" ox="0" oy="0"/>
+		<Frame cx="3" cy="0" delay="0.2" ox="0" oy="0"/>
+		<Frame cx="4" cy="0" delay="0.2" ox="0" oy="0"/>
+		<Frame cx="5" cy="0" delay="0.2" ox="0" oy="0"/>
+		<Frame cx="6" cy="0" delay="0.2" ox="0" oy="0"/>
+		<Frame cx="7" cy="0" delay="0.2" ox="0" oy="0"/>
+	</Sequence>
+
+
+	<Sequence name="standing_up_stars_01">
+		<Frame cx="0" cy="1" delay="0.2" ox="3" oy="1"/>
+		<Frame cx="1" cy="1" delay="0.2" ox="3" oy="1"/>
+		<Frame cx="2" cy="1" delay="0.2" ox="3" oy="1"/>
+		<Frame cx="3" cy="1" delay="0.2" ox="3" oy="1"/>
+		<Frame cx="4" cy="1" delay="0.2" ox="3" oy="1"/>
+		<Frame cx="5" cy="1" delay="0.2" ox="3" oy="1"/>
+		<Frame cx="6" cy="1" delay="0.2" ox="3" oy="1"/>
+		<Frame cx="7" cy="1" delay="0.2" ox="3" oy="1"/>
+	</Sequence>
+
+
+	<Sequence name="standing_up_stars_02">
+		<Frame cx="0" cy="2" delay="0.2" ox="11" oy="11"/>
+		<Frame cx="1" cy="2" delay="0.2" ox="11" oy="11"/>
+		<Frame cx="2" cy="2" delay="0.2" ox="11" oy="11"/>
+		<Frame cx="3" cy="2" delay="0.2" ox="11" oy="11"/>
+		<Frame cx="4" cy="2" delay="0.2" ox="11" oy="11"/>
+		<Frame cx="5" cy="2" delay="0.2" ox="11" oy="11"/>
+		<Frame cx="6" cy="2" delay="0.2" ox="11" oy="11"/>
+		<Frame cx="7" cy="2" delay="0.2" ox="11" oy="11"/>
+	</Sequence>
+
+
+	<Sequence name="standing_up_stars_03">
+		<Frame cx="0" cy="3" delay="0.2" ox="16.5" oy="10"/>
+		<Frame cx="1" cy="3" delay="0.2" ox="16.5" oy="10"/>
+		<Frame cx="2" cy="3" delay="0.2" ox="16.5" oy="10"/>
+		<Frame cx="3" cy="3" delay="0.2" ox="16.5" oy="10"/>
+		<Frame cx="4" cy="3" delay="0.2" ox="16.5" oy="10"/>
+		<Frame cx="5" cy="3" delay="0.2" ox="16.5" oy="10"/>
+		<Frame cx="6" cy="3" delay="0.2" ox="16.5" oy="10"/>
+		<Frame cx="7" cy="3" delay="0.2" ox="16.5" oy="10"/>
+	</Sequence>
+
+
+	<Sequence name="standing_up_stars_04">
+		<Frame cx="0" cy="4" delay="0.2" ox="0" oy="2"/>
+		<Frame cx="1" cy="4" delay="0.2" ox="0" oy="2"/>
+		<Frame cx="2" cy="4" delay="0.2" ox="0" oy="2"/>
+		<Frame cx="3" cy="4" delay="0.2" ox="0" oy="2"/>
+		<Frame cx="4" cy="4" delay="0.2" ox="0" oy="2"/>
+		<Frame cx="5" cy="4" delay="0.2" ox="0" oy="2"/>
+		<Frame cx="6" cy="4" delay="0.2" ox="0" oy="2"/>
+		<Frame cx="7" cy="4" delay="0.2" ox="0" oy="2"/>
+
+	</Sequence>
+
+
+	<Sequence name="playing">
+		<Frame cx="7" cy="7" delay="0.2" ox="24" oy="27"/>
+		<Frame cx="0" cy="8" delay="0.2" ox="24" oy="25.5"/>
+		<Frame cx="1" cy="8" delay="0.2" ox="24" oy="25"/>
+		<Frame cx="2" cy="8" delay="0.2" ox="24" oy="25"/>
+		<Frame cx="3" cy="8" delay="0.2" ox="24" oy="25"/>
+		<Frame cx="4" cy="8" delay="0.2" ox="24" oy="25.5"/>
+		<Frame cx="7" cy="6" delay="0.2" ox="31.5" oy="22"/>
+		<Frame cx="0" cy="7" delay="0.2" ox="31.5" oy="22"/>
+		<Frame cx="1" cy="7" delay="0.2" ox="31.5" oy="22"/>
+		<Frame cx="2" cy="7" delay="0.2" ox="31.5" oy="22"/>
+		<Frame cx="3" cy="7" delay="0.2" ox="31.5" oy="22"/>
+		<Frame cx="4" cy="7" delay="0.2" ox="31.5" oy="22"/>
+		<Frame cx="5" cy="7" delay="0.2" ox="31.5" oy="22"/>
+		<Frame cx="6" cy="7" delay="0.2" ox="31.5" oy="22"/>
+		<Frame cx="5" cy="8" delay="0.2" ox="31.5" oy="22"/>
+		<Frame cx="7" cy="6" delay="0.2" ox="31.5" oy="22"/>
+		<Frame cx="5" cy="8" delay="0.2" ox="31.5" oy="22"/>
+		<Frame cx="7" cy="6" delay="0.2" ox="31.5" oy="22"/>
+
+	</Sequence>
+</Animation>

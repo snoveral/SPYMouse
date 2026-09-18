@@ -1,0 +1,32 @@
+# 3ds Max Wavefront OBJ Exporter v0.94b - (c)2007 guruware
+# File Created: 15.03.2011 10:56:53
+
+mtllib world05_hiddenroad_48.mtl
+
+#
+# object world05_hiddenroad_48
+#
+
+v  -68.1758 -0.0200 15.8864
+v  -68.1772 -0.0200 44.3544
+v  -88.8918 -0.0200 44.3544
+v  -88.9644 -0.0200 7.7381
+# 4 vertices
+
+vn 0.0000 -1.0000 -0.0000
+vn -0.0000 -1.0000 -0.0000
+# 2 vertex normals
+
+vt 0.0843 0.6420 0.0000
+vt 0.0843 0.7489 0.0000
+vt 0.0324 0.7489 0.0000
+vt 0.0331 0.6118 0.0000
+# 4 texture coords
+
+g world05_hiddenroad_48
+usemtl world05_map03
+s 1
+f 1/1/1 2/2/2 3/3/1 
+f 3/3/1 4/4/1 1/1/1 
+# 2 faces
+

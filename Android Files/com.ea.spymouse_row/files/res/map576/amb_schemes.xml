@@ -1,0 +1,5 @@
+<floors>
+	<floor id="0" scheme="ext_jungle"/>
+	<floor id="1" scheme="int_lava"/>
+	<floor id="2" scheme="int_lava"/>
+</floors>

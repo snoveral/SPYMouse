@@ -1,0 +1,12 @@
+<root>
+	<loop file="ext_alley_loop.sps"/>
+	<ambience min_delay="7.0" max_delay="15.0">
+		<sound file="glass_1.sps"/>
+		<sound file="glass_2.sps"/>
+	</ambience>
+	<ambience min_delay="7.0" max_delay="16.0">
+		<sound file="metal_1.sps"/>
+		<sound file="metal_2.sps"/>
+		<sound file="metal_3.sps"/>
+	</ambience>
+	</root>

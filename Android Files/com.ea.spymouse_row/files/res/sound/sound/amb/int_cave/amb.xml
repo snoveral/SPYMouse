@@ -1,0 +1,9 @@
+<root>
+	<loop file="int_cave_loop.sps"/>
+	<ambience min_delay="3.5" max_delay="11.5">
+		<sound file="rocks_1.sps"/>
+		<sound file="rocks_2.sps"/>
+		<sound file="rocks_3.sps"/>
+		<sound file="rocks_4.sps"/>
+	</ambience>
+</root>

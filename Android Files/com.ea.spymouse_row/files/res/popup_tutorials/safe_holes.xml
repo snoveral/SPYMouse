@@ -1,0 +1,6 @@
+<root>
+	<mouse pose="3" flip="true" />
+	<title_text id="SAFE_HOLE_TITLE" />
+	<body_text id="SAFE_HOLE_ALT_16" />
+	<img file="popup_tutorials/safe_holes.png" />
+</root>

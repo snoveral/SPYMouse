@@ -1,0 +1,8 @@
+<root>
+	<loop file="int_haunt_loop.sps"/>
+	<ambience min_delay="2.0" max_delay="5.0">
+		<sound file="wood2creak_1.sps"/>
+		<sound file="wood2creak_2.sps"/>
+		<sound file="wood2creak_3.sps"/>
+	</ambience>
+</root>

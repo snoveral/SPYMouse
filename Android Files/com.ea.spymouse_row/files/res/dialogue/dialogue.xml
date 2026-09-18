@@ -1,0 +1,46 @@
+<!-- 
+	************************************************
+	Actor ID's: 
+		Agent Squeek 	= "mouse"
+		Fluffy 			= "fluffy"
+	************************************************		
+-->
+
+<root>
+		
+	<!-- 
+		************************************************
+		Dialogue Elements, this is where you specify
+		which actor will say what, in what order
+		************************************************
+	-->
+		
+	<dialogue name="boss1_intro">
+		<speech actor="fluffy" text="BOSS_INTRO_01"/>
+	</dialogue>
+	
+	<dialogue name="boss2_intro"> 			
+		<speech actor="fluffy" text="BOSS_INTRO_01"/>
+	</dialogue>
+	
+	<dialogue name="boss3_intro">
+		<speech actor="fluffy" text="BOSS_INTRO_01" />
+	</dialogue>
+	
+	<dialogue name="boss4_intro">
+		<speech actor="fluffy" text="BOSS_INTRO_01"/>
+	</dialogue>
+	
+	<dialogue name="boss5_intro">
+		<speech actor="fluffy" text="BOSS_INTRO_ALTS_18"/>
+	</dialogue>
+	
+	<dialogue name="boss6_intro"> 			
+		<speech actor="fluffy" text="BOSS_INTRO_01"/>	
+	</dialogue>
+	
+	<dialogue name="boss7_intro"> 			
+		<speech actor="fluffy" text="BOSS_INTRO_01"/>	
+	</dialogue>
+	
+</root>

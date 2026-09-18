@@ -1,0 +1,6 @@
+<root>
+	<mouse pose="5" flip="false" />
+	<title_text id="CARRY_MORE_TITLE_ALT_01" />
+	<body_text id="CARRY_MORE_2_ALT_01" />
+	<img file="popup_tutorials/new_cheese_slot01.png" />
+</root>

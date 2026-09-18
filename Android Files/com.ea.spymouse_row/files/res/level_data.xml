@@ -1,0 +1,1078 @@
+<!--
+	** Level Definitions! **
+	
+	:: Note ::
+		uid = Unique Identifier.  Each map will now be referenced useing this number.  It can be any
+	positive whole number thats unique.  No two maps should share a UID (then its not unique duh).
+	Once a map has a UID it will be referenced useing that forever and the UID should never change.
+	The ID's listed in the map xml reference it and cloudcell high score times use it.  The uid's
+	do not need to be sequential, or have any order - they just need to be unique and constant.
+	
+	Map Theme is case sensitive!  Please make it exactly matche one of the following:
+		house
+		alley
+		apartment
+		factory
+		mummy
+		vampire
+	
+	Map mode is case sensitive!  Please make it exactly match one of the following:
+		normal
+		infinite
+		objking
+		catking
+		objhaul
+		cheesepile
+		catannoy
+		
+	Goals are case sensitive! Please make it exactly match one of the following:
+		"score",
+		"combo_pair",
+		"combo_triple",
+		"combo_fourkind",
+		"combo_flush",
+		"combo_twopair",
+		"combo_straight",
+		"combo_fullhouse",
+		"time",	
+		"paths",
+		"dark_areas",
+		"spotted",		// get spotted only x times
+		"bump",			// bump x cats heads		
+		"stolen",		// get cheese stolen x times
+		"shuriken_cheese",	// get shuriken stuck in cheese x times
+		"all_crumbs",
+		"pipe",
+		"mouse_hole",
+		"safe_hole",
+		"switch",
+		"furniture",
+		"teacup",
+		"bucket",
+		"chilli",
+		"fish",
+		"string",
+		"balloon",
+		"tv"
+		
+	You can combine goals together by putting brackets around them. 
+		eg: (score, time)
+		
+	Text field refers to the name of the string in the MTF
+-->
+
+<root>
+
+<!--
+		WORLD 1
+-->
+	<world type="0" name=" " clouds="true">
+		<level uid="1" map="10" num="1-1" name="LEVEL_1_1">
+			<type theme="house" mode="normal" trailLength="1"/>
+			<music play="sound/music/CM_Apartments.sps" />
+			<times start="80" bronze="30" silver="40" gold="55" platinum="1000" />
+			<unlocked by1="-1" by2="-1" secret="false" autostart="-1" />			
+			<goals type="score, paths, time" value="95, 1, 5" />
+		</level>	
+		
+		<level uid="2" map="703" num="1-2" name="LEVEL_1_2">
+			<type theme="house" mode="normal" trailLength="1" story="world01_chase"/>
+			<music play="sound/music/CM_Apartments.sps" />
+			<times start="120" bronze="30" silver="40" gold="50" platinum="1000" />
+			<unlocked by1="1" by2="-1" secret="false" autostart="-1" />			
+			<goals type="spotted, paths, time" value="0, 1, 10" />
+		</level>	
+
+		<level uid="3" map="704" num="1-3" name="LEVEL_1_3" world_bg="true">
+			<type theme="house" mode="normal" trailLength="1"/>
+			<music play="sound/music/CM_Apartments.sps" />
+			<times start="117" bronze="30" silver="40" gold="50" platinum="1000" />
+			<unlocked by1="2" by2="-1" secret="false" autostart="-1" />
+			<goals type="spotted, paths, time" value="0, 1, 10" />
+		</level>
+		
+		<level uid="4" map="705" num="1-4" name="LEVEL_1_4" attemptsBeforeShowingTutorial="0">
+			<type theme="house" mode="normal" trailLength="1" story="world01_clue01"/>
+			<music play="sound/music/CM_Apartments.sps" />
+			<times start="110" bronze="30" silver="40" gold="50" platinum="1000" />
+			<unlocked by1="3" by2="-1" secret="false" autostart="-1" clue="1"/>
+			<goals type="paths, bump, score" value="1, 1, 100" />
+		</level>
+		
+		<level uid="5" map="790" num="1-5" name="LEVEL_1_5" >
+			<type theme="house" mode="normal" trailLength="1"/>
+			<music play="sound/music/CM_Apartments.sps" />
+			<times start="130" bronze="30" silver="40" gold="50" platinum="1000" />
+			<unlocked by1="4" by2="-1" secret="false" autostart="-1" />
+			<goals type="bump, paths, time" value="1, 1, 12" />
+		</level>
+		
+		<level uid="6" map="707" num="1-6" name="LEVEL_1_6" >
+			<type theme="house" mode="normal" trailLength="1"/>
+			<music play="sound/music/CM_Apartments.sps" />
+			<times start="120" bronze="30" silver="40" gold="50" platinum="1000" />
+			<unlocked by1="5" by2="-1" secret="false" autostart="-1" />
+			<goals type="spotted, paths, time" value="0, 1, 12" />
+		</level>
+		
+		<level uid="7" map="98" num="1-7" name="LEVEL_1_7" world_bg="true">
+			<type theme="house" mode="normal" trailLength="1" story="world01_clue02"/>
+			<music play="sound/music/CM_Apartments.sps" />
+			<times start="180" bronze="30" silver="40" gold="50" platinum="1000" />
+			<unlocked by1="6" by2="-1" secret="false" autostart="-1" clue="2"/>
+			<goals type="spotted, paths, all_crumbs" value="0, 1, 0" />
+		</level>
+		
+		<level uid="8" map="11" num="1-8" name="LEVEL_1_8" world_bg="true" attemptsBeforeShowingTutorial="0">
+			<type theme="house" mode="normal" trailLength="1" />
+			<music play="sound/music/CM_Apartments.sps" />
+			<times start="120" bronze="30" silver="40" gold="50" platinum="1000" />
+			<unlocked by1="7" by2="-1" secret="false" autostart="-1" />
+			<goals type="spotted, paths, time" value="0, 3, 10" />
+		</level>
+		
+		<level uid="9" map="708" num="1-9" name="LEVEL_1_9" attemptsBeforeShowingTutorial="2" world_bg="true">
+			<type theme="house" mode="normal" trailLength="1"/>
+			<music play="sound/music/CM_Apartments.sps" />
+			<times start="120" bronze="30" silver="38" gold="45" platinum="1000" />
+			<unlocked by1="8" by2="-1" secret="false" autostart="-1" />
+			<goals type="spotted, paths, score" value="0, 2, 80" />
+		</level>
+		
+		<level uid="10" map="534" num="1-10" name="LEVEL_1_10" world_bg="true">
+			<type theme="house" mode="normal" trailLength="2" story="world01_clue03"/>
+			<music play="sound/music/CM_Apartments.sps" />
+			<times start="220" bronze="30" silver="38" gold="45" platinum="1000" />
+			<unlocked by1="9" by2="-1" secret="false" autostart="-1" clue="3"/>
+			<goals type="spotted, paths, time" value="0, 3, 20" />
+		</level>
+		
+		<level uid="101" map="507" num="1-11" name="LEVEL_1_11" world_bg="true">
+			<type theme="house" mode="normal" trailLength="2"/>
+			<music play="sound/music/CM_Apartments.sps" />
+			<times start="320" bronze="15" silver="35" gold="40" platinum="1000" />
+			<unlocked by1="10" by2="-1" secret="false" autostart="-1"/>
+			<goals type="spotted, paths, all_crumbs" value="0, 4, 0" />
+		</level>
+		
+		<level uid="102" map="736" num="1-Boss" name="LEVEL_1_Boss" world_bg="true">
+			<type theme="house" mode="infinite" trailLength="2" story="world01_boss"/>
+			<music play="sound/music/CM_Alleys.sps" />
+			<times start="0" bronze="10" silver="30" gold="50" platinum="1000" />
+			<unlocked by1="101" by2="-1" secret="false" autostart="103" />		
+		</level>	
+		
+		<level uid="103" map="791" num="1-Boss" name="LEVEL_1_Boss" >
+			<type theme="house" mode="boss" trailLength="2"/>
+			<music play="sound/music/CM_Factories.sps" />
+			<times start="120" bronze="0" silver="30" gold="10" platinum="8" />			
+			<unlocked by1="102" by2="-1" secret="false" autostart="-1" />		
+		</level>
+		
+		<level uid="106" map="786" name="LEVEL_GOALS_TITLE" >
+			<type theme="house" mode="normal" trailLength="1"/>
+			<music play="sound/music/CM_Apartments.sps" />
+			<times start="60" bronze="30" silver="40" gold="50" platinum="1000" />
+			<unlocked by1="1" by2="-1" secret="false" autostart="-1"/>
+		</level>
+		
+		<level uid="111" map="798" num="1-S" name="LEVEL_1_S" >
+			<type theme="house" mode="normal" trailLength="1"/>
+			<music play="sound/music/CM_Apartments.sps" />
+			<times start="160" bronze="7" silver="15" gold="19" platinum="1000" />
+			<unlocked by1="-1" by2="-1" secret="true" autostart="-1" />
+			<goals type="spotted, paths, score" value="0, 2, 105" />
+		</level>
+	</world>
+<!--
+		WORLD 2
+-->
+	<world type="1" name=" " clouds="true">
+		<level uid="213" map="714" num="2-1" name="LEVEL_2_1" >
+			<type theme="house" mode="normal" trailLength="2"/>
+			<music play="sound/music/CM_Homes.sps" />
+			<times start="225" bronze="18" silver="30" gold="40" platinum="1000" />
+			<unlocked by1="12" by2="-1" secret="false" autostart="-1" />
+			<goals type="spotted, paths, mouse_hole" value="0, 2, 1" />
+		</level>
+
+		<level uid="214" map="553" num="2-2" name="LEVEL_2_2"  world_bg="true" attemptsBeforeShowingTutorial="2">
+			<type theme="house" mode="normal" trailLength="2" story="world02_chase"/>
+			<music play="sound/music/CM_Apartments.sps" />
+			<times start="340" bronze="40" silver="64" gold="72" platinum="1000" />
+			<unlocked by1="213" by2="-1" secret="false" autostart="-1" />
+			<goals type="spotted, time, all_crumbs" value="0, 20, 0" />
+		</level>
+		
+		<level uid="215" map="759" num="2-3" name="LEVEL_2_3" world_bg="true">
+			<type theme="house" mode="normal" trailLength="2" story="world02_clue01"/>
+			<music play="sound/music/CM_Homes.sps" />
+			<times start="320" bronze="16" silver="22" gold="30" platinum="1000" />
+			<unlocked by1="214" by2="-1" secret="false" autostart="-1" />
+			<goals type="spotted, paths, time" value="0, 3, 40" />
+		</level>
+		
+		<level uid="216" map="26" num="2-4" name="LEVEL_2_4"  attemptsBeforeShowingTutorial="0" world_bg="true">
+			<type theme="house" mode="normal" trailLength="2" story="world02_clue02"/>
+			<music play="sound/music/CM_Apartments.sps" />
+			<times start="330" bronze="32" silver="45" gold="60" platinum="1000" />
+			<unlocked by1="215" by2="-1" secret="false" autostart="-1" />
+			<goals type="time, bump, spotted" value="25, 2, 0" />
+		</level>
+		
+		<level uid="217" map="52" num="2-5" name="LEVEL_2_5" >
+			<type theme="house" mode="normal" trailLength="2" story="world02_clue03"/>
+			<music play="sound/music/CM_Homes.sps" />
+			<times start="380" bronze="36" silver="52" gold="74" platinum="1000" />
+			<unlocked by1="216" by2="-1" secret="false" autostart="-1" />
+			<goals type="all_crumbs, paths, combo_pair" value="0, 3, 3" />
+		</level>
+		
+		<level uid="218" map="18" num="2-6" name="LEVEL_2_6" >
+			<type theme="house" mode="normal" trailLength="2"/>
+			<music play="sound/music/CM_Apartments.sps" />
+			<times start="330" bronze="35" silver="47" gold="65" platinum="1000" />
+			<unlocked by1="217" by2="-1" secret="false" autostart="-1" />
+			<goals type="combo_pair, time, all_crumbs" value="2, 40, 0" />
+		</level>
+		
+		<level uid="219" map="207" num="2-7" name="LEVEL_2_7" >
+			<type theme="house" mode="normal" trailLength="3"/>
+			<music play="sound/music/CM_Apartments.sps" />
+			<times start="450" bronze="15" silver="27" gold="45" platinum="1000" />
+			<unlocked by1="218" by2="-1" secret="false" autostart="-1" />
+			<goals type="time, spotted, paths" value="20, 0, 1" />
+		</level>
+	
+		<level uid="220" map="758" num="2-8" name="LEVEL_2_8"  attemptsBeforeShowingTutorial="3">
+			<type theme="house" mode="normal" trailLength="3"/>
+			<music play="sound/music/CM_Homes.sps" />
+			<times start="300" bronze="20" silver="32" gold="56" platinum="1000" />
+			<unlocked by1="219" by2="-1" secret="false" autostart="-1" />
+			<goals type="spotted, time, furniture" value="0, 20, 0" />
+		</level>
+		
+		<level uid="221" map="712" num="2-9" name="LEVEL_2_9"  attemptsBeforeShowingTutorial="2">
+			<type theme="house" mode="normal" trailLength="3"/>
+			<music play="sound/music/CM_Apartments.sps" />
+			<times start="460" bronze="34" silver="47" gold="64" platinum="1000" />
+			<unlocked by1="220" by2="-1" secret="false" autostart="-1" />
+			<goals type="spotted, paths, teacup" value="0, 1, 1" />
+		</level>
+		
+		<level uid="222" map="536" num="2-10" name="LEVEL_2_10" >
+			<type theme="house" mode="normal" trailLength="3"/>
+			<music play="sound/music/CM_Homes.sps" />
+			<times start="440" bronze="27" silver="61" gold="82" platinum="1000" />
+			<unlocked by1="221" by2="221" secret="false" autostart="-1" />
+			<goals type="spotted, combo_triple, (teacup, chilli)" value="0, 3, (0, 0)" />
+		</level>
+		
+		<level uid="223" map="713" num="2-11" name="LEVEL_2_11"  attemptsBeforeShowingTutorial="3">
+			<type theme="house" mode="normal" trailLength="3"/>
+			<music play="sound/music/CM_Homes.sps" />
+			<times start="360" bronze="20" silver="35" gold="50" platinum="1000" />
+			<unlocked by1="222" by2="-1" secret="false" autostart="-1" />
+			<goals type="spotted, balloon, time" value="0, 0, 20" />
+		</level>
+		
+		<level uid="224" map="555" num="2-Boss" name="LEVEL_2_Boss" world_bg="true">
+			<type theme="house" mode="infinite" trailLength="3" story="world02_boss"/>
+			<music play="sound/music/CM_Alleys.sps" />
+			<times start="0" bronze="0" silver="30" gold="10" platinum="8" />
+			<unlocked by1="223" by2="-1" secret="false" autostart="2101" />
+		</level>
+			
+		<level uid="2101" map="795" num="2-Boss" name="LEVEL_2_Boss" >
+			<type theme="house" mode="boss" trailLength="3"/>
+			<music play="sound/music/CM_Factories.sps" />
+			<times start="0" bronze="0" silver="30" gold="10" platinum="8" />
+			<unlocked by1="224" by2="-1" secret="false" autostart="-1" />
+		</level>
+		
+		<level uid="2107" map="579" num="2-S" name="LEVEL_2_S" >
+			<type theme="house" mode="normal" trailLength="3"/>
+			<music play="sound/music/CM_Homes.sps" />
+			<times start="950" bronze="100" silver="150" gold="207" platinum="1000" />
+			<unlocked by1="-1" by2="-1" secret="true" autostart="-1" />
+			<goals type="score, (balloon, chilli), combo_triple" value="2100, (0, 0), 5" />
+		</level>
+	</world>
+<!--
+		WORLD 3
+-->
+	<world type="2" name=" " clouds="true">
+		<level uid="25" map="716" num="3-1" name="LEVEL_3_1"  attemptsBeforeShowingTutorial="0">
+			<type theme="house" mode="normal" trailLength="3"/>
+			<music play="sound/music/CM_Homes.sps" />
+			<times start="380" bronze="20" silver="32" gold="45" platinum="1000" />
+			<unlocked by1="24" by2="-1" secret="false" autostart="-1" />
+			<goals type="spotted, switch, tv" value="0, 2, 0" />
+			<monologue  />
+		</level>
+		
+		<level uid="26" map="724" num="3-2" name="LEVEL_3_2"  attemptsBeforeShowingTutorial="0" world_bg="true">
+			<type theme="house" mode="normal" trailLength="3" story="world03_chase"/>
+			<music play="sound/music/CM_Homes.sps" />
+			<times start="440" bronze="100" silver="145" gold="178" platinum="1000" />
+			<unlocked by1="25" by2="-1" secret="false" autostart="-1" />
+			<goals type="bump, combo_triple, pipe" value="2, 3, 4" />
+		</level>
+		
+		<level uid="28" map="528" num="3-3" name="LEVEL_3_3" >
+			<type theme="house" mode="normal" trailLength="3" story="world03_clue01"/>
+			<music play="sound/music/CM_Homes.sps" />
+			<times start="400" bronze="30" silver="50" gold="62" platinum="1000" />
+			<unlocked by1="335" by2="26" secret="false" autostart="-1" />
+			<goals type="score, time, paths" value="540, 25, 5" />
+		</level>
+		
+		<level uid="29" map="51" num="3-4" name="LEVEL_3_4" world_bg="true">
+			<type theme="house" mode="normal" trailLength="3" story="world03_clue02"/>
+			<music play="sound/music/CM_Homes.sps" />
+			<times start="430" bronze="35" silver="52" gold="" platinum="1000" />
+			<unlocked by1="28" by2="-1" secret="false" autostart="-1" />
+			<goals type="paths, pipe, switch" value="5, 1, 0" />
+		</level>
+		
+		<level uid="30" map="743" num="3-5" name="LEVEL_3_5" world_bg="true">
+			<type theme="house" mode="normal" trailLength="4" story="world03_clue03"/>
+			<music play="sound/music/CM_Homes.sps" />
+			<times start="980" bronze="50" silver="72" gold="91" platinum="1000" />
+			<unlocked by1="29" by2="-1" secret="false" autostart="-1" />
+			<goals type="spotted, pipe, bucket" value="0, 2, 1" />			
+		</level>
+		
+		<level uid="31" map="521" num="3-6" name="LEVEL_3_6" world_bg="true">
+			<type theme="house" mode="normal" trailLength="4"/>
+			<music play="sound/music/CM_Homes.sps" />
+			<times start="1220" bronze="100" silver="140" gold="160" platinum="1000" />
+			<unlocked by1="30" by2="-1" secret="false" autostart="-1" />\
+			<goals type="balloon, chilli, time" value="0, 0, 50" />
+		</level>
+		
+		<level uid="32" map="570" num="3-7" name="LEVEL_3_7"  attemptsBeforeShowingTutorial="2">
+			<type theme="house" mode="normal" trailLength="4"/>
+			<music play="sound/music/CM_Homes.sps" />
+			<times start="1060" bronze="10" silver="25" gold="45" platinum="1000" />
+			<unlocked by1="31" by2="-1" secret="false" autostart="-1" />
+			<goals type="(safe_hole, balloon), bucket, chilli" value="(0, 0), 0, 0" />
+		</level>
+		
+		<level uid="33" map="709" num="3-8" name="LEVEL_3_8"  attemptsBeforeShowingTutorial="2">
+			<type theme="house" mode="normal" trailLength="4"/>
+			<music play="sound/music/CM_Homes.sps" />
+			<times start="480" bronze="30" silver="42" gold="58" platinum="1000" />
+			<unlocked by1="32" by2="-1" secret="false" autostart="-1" />
+			<goals type="score, time, paths" value="290, 55, 8" />
+		</level>	
+		
+		<level uid="34" map="565" num="3-Boss" name="LEVEL_3_Boss" >
+			<type theme="house" mode="infinite" trailLength="4" story="world03_boss"/>
+			<music play="sound/music/CM_Alleys.sps" />
+			<times start="0" bronze="0" silver="30" gold="10" platinum="1000" />
+			<unlocked by1="33" by2="334" secret="false" autostart="35" />
+		</level>
+		
+		<level uid="35" map="733" num="3-Boss" name="LEVEL_3_Boss" >
+			<type theme="house" mode="boss" trailLength="4"/>
+			<music play="sound/music/CM_Factories.sps" />
+			<times start="120" bronze="0" silver="30" gold="10" platinum="1000" />
+			<unlocked by1="34" by2="-1" secret="false" autostart="-1" />
+		</level>
+		
+		<level uid="335" map="584" num="3-H1" name="LEVEL_3_H1" >
+			<type theme="house" mode="normal" trailLength="3"/>
+			<music play="sound/music/CM_Homes.sps" />
+			<times start="560" bronze="18" silver="30" gold="46" platinum="1000" />
+			<unlocked by1="26" by2="-1" secret="true" autostart="-1" />
+			<goals type="spotted, pipe, time" value="0, 2, 30" />
+		</level>
+		
+		<level uid="334" map="522" num="3-H2" name="LEVEL_3_H2" world_bg="true" >
+			<type theme="house" mode="normal" trailLength="4"/>
+			<music play="sound/music/CM_Homes.sps" />
+			<times start="500" bronze="64" silver="85" gold="100" platinum="1000" />
+			<unlocked by1="33" by2="-1" secret="true" autostart="-1" />
+			<goals type="safe_hole, time, paths" value="0, 50, 8" />
+		</level>
+
+		<level uid="336" map="784" num="3-S" name="LEVEL_3_S" >
+			<type theme="house" mode="normal" trailLength="4"/>
+			<music play="sound/music/CM_Homes.sps" />
+			<times start="740" bronze="64" silver="85" gold="100" platinum="1000" />
+			<unlocked by1="-1" by2="-1" secret="true" autostart="-1" />
+			<goals type="balloon, chilli, combo_pair" value="0, 0, 4" />
+		</level>			
+	</world>
+<!--
+		WORLD 4
+-->
+	<world type="3" name=" " clouds="true">
+		<level uid="36" map="731" num="4-1" name="LEVEL_4_1" >
+			<type theme="house" mode="normal" trailLength="4"/>
+			<music play="sound/music/CM_Japan.sps" />
+			<times start="600" bronze="100" silver="175" gold="207" platinum="1000" />
+			<unlocked by1="35" by2="-1" secret="false" autostart="-1" />
+			<goals type="shuriken_cheese, combo_pair, score" value="1, 4, 1600" />
+		</level>
+		
+		<level uid="37" map="719" num="4-2" name="LEVEL_4_2" world_bg="true">
+			<type theme="house" mode="normal" trailLength="4" story="world04_chase"/>
+			<music play="sound/music/CM_Japan.sps" />
+			<times start="280" bronze="0" silver="30" gold="10" platinum="1000" />
+			<unlocked by1="36" by2="-1" secret="false" autostart="-1" />
+			<goals type="score, time, paths" value="220, 30, 2" />
+		</level>
+		
+		<level uid="38" map="721" num="4-3" name="LEVEL_4_3" >
+			<type theme="house" mode="normal" trailLength="4" story="world04_clue01"/>
+			<music play="sound/music/CM_Japan.sps" />
+			<times start="300" bronze="15" silver="27" gold="35" platinum="1000" />
+			<unlocked by1="37" by2="-1" secret="false" autostart="-1" />
+			<goals type="pipe, paths, time" value="0, 7, 42" />
+		</level>
+		
+		<level uid="39" map="554" num="4-4" name="LEVEL_4_4" >
+			<type theme="house" mode="normal" trailLength="4" story="world04_clue02"/>
+			<music play="sound/music/CM_Japan.sps" />
+			<times start="450" bronze="25" silver="37" gold="50" platinum="1000" />
+			<unlocked by1="38" by2="-1" secret="false" autostart="-1" />
+			<goals type="safe_hole, paths, score" value="0, 6, 550" />
+		</level>
+		
+		<level uid="40" map="711" num="4-5" name="LEVEL_4_5" >
+			<type theme="house" mode="normal" trailLength="4" story="world04_clue03"/>
+			<music play="sound/music/CM_Japan.sps" />
+			<times start="460" bronze="30" silver="42" gold="56" platinum="1000" />
+			<unlocked by1="39" by2="-1" secret="false" autostart="-1" />
+			<goals type="time, fish, string" value="40, 0, 0" />
+		</level>
+		
+		<level uid="41" map="577" num="4-6" name="LEVEL_4_6" >
+			<type theme="house" mode="normal" trailLength="4"/>
+			<music play="sound/music/CM_Japan.sps" />
+			<times start="410" bronze="27" silver="40" gold="52" platinum="1000" />
+			<unlocked by1="40" by2="-1" secret="false" autostart="-1" />
+			<goals type="shuriken_cheese, spotted, time" value="1, 0, 40" />
+		</level>
+		
+		<level uid="42" map="729" num="4-7" name="LEVEL_4_7" world_bg="true">
+			<type theme="house" mode="normal" trailLength="5"/>
+			<music play="sound/music/CM_Japan.sps" />
+			<times start="740" bronze="125" silver="185" gold="250" platinum="1000" />
+			<unlocked by1="41" by2="-1" secret="false" autostart="-1" />
+			<goals type="chilli, balloon, score" value="0, 0, 2200" />
+		</level>
+		
+		<level uid="43" map="726" num="4-8" name="LEVEL_4_8" world_bg="true">
+			<type theme="house" mode="normal" trailLength="5"/>
+			<music play="sound/music/CM_Japan.sps" />
+			<times start="720" bronze="90" silver="120" gold="150" platinum="1000" />
+			<unlocked by1="42" by2="-1" secret="false" autostart="-1" />
+			<goals type="balloon, time, paths" value="0, 45, 2" />
+		</level>
+		
+		<level uid="44" map="723" num="4-9" name="LEVEL_4_9" >
+			<type theme="house" mode="normal" trailLength="5"/>
+			<music play="sound/music/CM_Japan.sps" />
+			<times start="400" bronze="125" silver="195" gold="240" platinum="1000" />
+			<unlocked by1="43" by2="-1" secret="false" autostart="-1" />
+			<goals type="spotted, pipe, paths" value="0, 0, 3" />
+		</level>	
+
+		<level uid="46" map="556" num="4-Boss" name="LEVEL_4_Boss" >
+			<type theme="house" mode="infinite" trailLength="5" story="world04_boss"/>
+			<music play="sound/music/CM_Alleys.sps" />
+			<times start="0" bronze="0" silver="30" gold="10" platinum="8" />
+			<unlocked by1="44" by2="-1" secret="false" autostart="4101" />
+		</level>
+		
+		<level uid="4101" map="789" num="4-Boss" name="LEVEL_4_Boss" >
+			<type theme="house" mode="boss" trailLength="5"/>
+			<music play="sound/music/CM_Factories.sps" />
+			<times start="120" bronze="0" silver="30" gold="10" platinum="8" />
+			<unlocked by1="46" by2="-1" secret="false" autostart="-1" />
+		</level>
+		
+		<level uid="4451" map="730" num="4-S2" name="LEVEL_4_H1" >	
+			<type theme="house" mode="normal" trailLength="5"/>
+			<music play="sound/music/CM_Japan.sps" />
+			<times start="600" bronze="75" silver="100" gold="155" platinum="1000" />
+			<unlocked by1="-1" by2="-1" secret="true" autostart="-1" />
+			<goals type="time, (balloon, fish), paths" value="35, (0, 0), 4" />
+		</level>
+		
+		<level uid="4207" map="785" num="4-S1" name="LEVEL_4_S" >
+			<type theme="house" mode="normal" trailLength="4"/>
+			<music play="sound/music/CM_Japan.sps" />
+			<times start="640" bronze="64" silver="85" gold="100" platinum="1000" />
+			<unlocked by1="-1" by2="-1" secret="true" autostart="-1" />
+			<goals type="time, (balloon, chilli), combo_pair" value="40, (0, 0), 4" />
+		</level>	
+	</world>
+<!--
+		WORLD 5
+-->
+	<world type="4" name=" " clouds="true">
+		<level uid="47" map="727" num="5-1" name="LEVEL_5_1" >
+			<type theme="house" mode="normal" trailLength="5"/>
+			<music play="sound/music/CM_Urban.sps" />
+			<times start="780" bronze="125" silver="190" gold="260" platinum="1000" />
+			<unlocked by1="46" by2="-1" secret="false" autostart="-1" />
+			<goals type="balloon, safe_hole, score" value="0, 0, 2060" />
+		</level>
+			
+		<level uid="48" map="525" num="5-2" name="LEVEL_5_2" world_bg="true">
+			<type theme="house" mode="normal" trailLength="5" story="world05_chase"/>
+			<music play="sound/music/CM_Urban.sps" />
+			<times start="550" bronze="100" silver="135" gold="178" platinum="1000" />
+			<unlocked by1="47" by2="-1" secret="false" autostart="-1" />
+			<goals type="balloon, combo_triple, combo_twopair" value="0, 1, 1" />
+		</level>
+		
+		<level uid="49" map="561" num="5-3" name="LEVEL_5_3" world_bg="true">
+			<type theme="house" mode="normal" trailLength="5" story="world05_clue02"/>
+			<music play="sound/music/CM_Urban.sps" />
+			<times start="920" bronze="100" silver="130" gold="160" platinum="1000" />
+			<unlocked by1="48" by2="5127" secret="false" autostart="-1" />
+			<goals type="time, stolen, balloon" value="75, 0, 0" />
+		</level>
+		
+		<level uid="50" map="500" num="5-4" name="LEVEL_5_4" >
+			<type theme="house" mode="normal" trailLength="5" story="world05_clue03"/>
+			<music play="sound/music/CM_Urban.sps" />
+			<times start="550" bronze="30" silver="40" gold="50" platinum="1000" />
+			<unlocked by1="49" by2="-1" secret="false" autostart="-1" />
+			<goals type="furniture, paths, score" value="0, 6, 950" />
+		</level>
+		
+		<level uid="51" map="564" num="5-5" name="LEVEL_5_5" world_bg="true">
+			<type theme="house" mode="normal" trailLength="5"/>
+			<music play="sound/music/CM_Urban.sps" />
+			<times start="680" bronze="40" silver="60" gold="80" platinum="1000" />
+			<unlocked by1="50" by2="-1" secret="false" autostart="-1" />
+			<goals type="all_crumbs, time, teacup" value="0, 90, 2" />
+		</level>
+		
+		<level uid="52" map="506" num="5-6" name="LEVEL_5_6" >
+			<type theme="house" mode="normal" trailLength="5"/>
+			<music play="sound/music/CM_Urban.sps" />
+			<times start="220" bronze="150" silver="190" gold="220" platinum="1000" />
+			<unlocked by1="50" by2="-1" secret="false" autostart="-1" />
+			<goals type="safe_hole, time, paths" value="0, 30, 4"/>
+		</level>
+		
+		<level uid="53" map="526" num="5-7" name="LEVEL_5_7" >
+			<type theme="house" mode="normal" trailLength="5"/>
+			<music play="sound/music/CM_Urban.sps" />
+			<times start="400" bronze="0" silver="30" gold="10" platinum="1000" />
+			<unlocked by1="52" by2="-1" secret="false" autostart="-1" />
+			<goals type="shuriken_cheese, time, (spotted, score)" value="1, 50, (0, 260)" />
+		</level>
+		
+		<level uid="54" map="562" num="5-8" name="LEVEL_5_8" >
+			<type theme="house" mode="normal" trailLength="5"/>
+			<music play="sound/music/CM_Urban.sps" />
+			<times start="600" bronze="30" silver="45" gold="60" platinum="1000" />
+			<unlocked by1="53" by2="-1" secret="false" autostart="-1" />
+			<goals type="spotted, chilli, time" value="0, 0, 35" />
+		</level>
+			
+		<level uid="55" map="510" num="5-9" name="LEVEL_5_9" world_bg="true">
+			<type theme="house" mode="normal" trailLength="5"/>
+			<music play="sound/music/CM_Urban.sps" />
+			<times start="530" bronze="60" silver="80" gold="94" platinum="1000" />
+			<unlocked by1="54" by2="-1" secret="false" autostart="-1" />
+			<goals type="spotted, paths, (balloon, score)" value="0, 2, (0, 900)" />
+		</level>
+		
+		<level uid="56" map="728" num="5-10" name="LEVEL_5_10" >
+			<type theme="house" mode="normal" trailLength="5"/>
+			<music play="sound/music/CM_Urban.sps" />
+			<times start="820" bronze="70" silver="85" gold="112" platinum="1000" />
+			<unlocked by1="54" by2="55" secret="false" autostart="-1" />
+			<goals type="(furniture, chilli), combo_flush, stolen" value="(0, 0), 1, 0" />
+		</level>
+		
+		<level uid="57" map="541" num="5-11" name="LEVEL_5_11" >
+			<type theme="house" mode="normal" trailLength="5"/>
+			<music play="sound/music/CM_Urban.sps" />
+			<times start="580" bronze="110" silver="140" gold="164" platinum="1000" />
+			<unlocked by1="56" by2="-1" secret="false" autostart="-1" />
+			<goals type="combo_straight, balloon, time" value="1, 0, 55," />
+		</level>
+		
+		<level uid="58" map="568" num="5-Boss" name="LEVEL_5_Boss" >
+			<type theme="house" mode="infinite" trailLength="5" story="world05_boss"/>
+			<music play="sound/music/CM_Alleys.sps" />
+			<times start="0" bronze="0" silver="30" gold="10" platinum="8" />
+			<unlocked by1="57" by2="-1" secret="false" autostart="5101" />
+		</level>
+		
+		<level uid="5159" map="787" num="5-S" name="LEVEL_5_S" >
+			<type theme="house" mode="normal" trailLength="5"/>
+			<music play="sound/music/CM_Urban.sps" />
+			<times start="710" bronze="60" silver="80" gold="94" platinum="1000" />
+			<unlocked by1="-1" by2="-1" secret="true" autostart="-1" />
+			<goals type="(combo_straight, combo_fullhouse), (chilli, balloon), (time, stolen)" value="(2, 2), (0, 0), (45, 0)" />
+		</level>
+		
+		<level uid="5101" map="782" num="5-Boss" name="LEVEL_5_Boss" >
+			<type theme="house" mode="boss" trailLength="5"/>
+			<music play="sound/music/CM_Factories.sps" />
+			<times start="0" bronze="0" silver="30" gold="10" platinum="8" />
+			<unlocked by1="58" by2="-1" secret="false" autostart="-1" />
+			<extra scrolls="true" />
+		</level>
+		
+		<level uid="5127" map="756" num="5-H1" name="LEVEL_5_H1" >
+			<type theme="house" mode="normal" trailLength="5"/>
+			<music play="sound/music/CM_Urban.sps" />
+			<times start="810" bronze="140" silver="270" gold="435" platinum="1000" />
+			<unlocked by1="48" by2="-1" secret="true" autostart="-1" />
+			<goals type="combo_fullhouse, (combo_straight, spotted), (paths, score)" value="3, (2,0), (4, 3600)" />
+		</level>
+	</world>
+<!--
+		WORLD 6
+-->
+	<world type="5" name=" " clouds="true">
+		<level uid="658" map="518" num="6-1" name="LEVEL_6_1" world_bg="true">
+			<type theme="house" mode="normal" trailLength="5"/>
+			<music play="sound/music/CM_Haunted.sps" win="sound/music/CM_Haunted_Win.sps" lose="" />
+			<times start="500" bronze="20" silver="30" gold="40" platinum="43" />
+			<unlocked by1="58" by2="-1" secret="false" autostart="-1" />
+			<goals type="time, stolen, paths" value="55, 0, 10" />
+		</level>
+		
+		<level uid="659" map="563" num="6-2" name="LEVEL_6_2" >
+			<type theme="house" mode="normal" trailLength="5" story="world06_chase"/>
+			<music play="sound/music/CM_Haunted.sps" win="sound/music/CM_Haunted_Win.sps" lose="" />
+			<times start="600" bronze="120" silver="150" gold="187" platinum="192" />
+			<unlocked by1="658" by2="-1" secret="false" autostart="-1" />
+			<goals type="spotted, time, combo_fullhouse" value="0, 55, 1" />
+		</level>
+		
+		<level uid="661" map="745" num="6-3" name="LEVEL_6_3" world_bg="true">
+			<type theme="house" mode="normal" trailLength="5" story="world06_clue01"/>
+			<music play="sound/music/CM_Haunted.sps" win="sound/music/CM_Haunted_Win.sps" lose="" />
+			<times start="300" bronze="30" silver="35" gold="38" platinum="42" />
+			<unlocked by1="659" by2="6660" secret="false" autostart="-1" />
+			<goals type="time, paths, pipe" value="35, 3, 1" />
+		</level>
+		
+		<level uid="662" map="747" num="6-4" name="LEVEL_6_4" world_bg="true">
+			<type theme="house" mode="normal" trailLength="5" story="world06_clue02"/>
+			<music play="sound/music/CM_Haunted.sps" win="sound/music/CM_Haunted_Win.sps" lose="" />
+			<times start="510" bronze="30" silver="50" gold="60" platinum="59" />
+			<unlocked by1="661" by2="-1" secret="false" autostart="-1" />
+			<goals type="time, dark_areas, paths" value="83, 1, 3" />
+		</level>
+		
+		<level uid="663" map="523" num="6-5" name="LEVEL_6_5" world_bg="true">
+			<type theme="house" mode="normal" trailLength="5" story="world06_clue03"/>
+			<music play="sound/music/CM_Haunted.sps" win="sound/music/CM_Haunted_Win.sps" lose="" />
+			<times start="270" bronze="40" silver="52" gold="58" platinum="62" />
+			<unlocked by1="662" by2="-1" secret="false" autostart="-1" />
+			<goals type="all_crumbs, paths, time" value="0, 10, 20" />
+		</level>
+		
+		<level uid="664" map="21" num="6-6" name="LEVEL_6_6" world_bg="true">
+			<type theme="house" mode="normal" trailLength="5"/>
+			<music play="sound/music/CM_Haunted.sps" win="sound/music/CM_Haunted_Win.sps" lose="" />
+			<times start="310" bronze="40" silver="50" gold="53" platinum="55" />
+			<unlocked by1="663" by2="-1" secret="false" autostart="-1" />
+			<goals type="score, paths, tv" value="230, 5, 0" />
+		</level>	
+
+		<level uid="665" map="509" num="6-7" name="LEVEL_6_7" >
+			<type theme="house" mode="normal" trailLength="5"/>
+			<music play="sound/music/CM_Haunted.sps" win="sound/music/CM_Haunted_Win.sps" lose="" />
+			<times start="620" bronze="100" silver="110" gold="120" platinum="124" />
+			<unlocked by1="664" by2="-1" secret="false" autostart="-1" />
+			<goals type="time, spotted, paths" value="70, 0, 6" />
+		</level>
+		
+		<level uid="666" map="753" num="6-8" name="LEVEL_6_8" >
+			<type theme="house" mode="normal" trailLength="5"/>
+			<music play="sound/music/CM_Haunted.sps" win="sound/music/CM_Haunted_Win.sps" lose="" />
+			<times start="600" bronze="70" silver="80" gold="86" platinum="91" />
+			<unlocked by1="665" by2="-1" secret="false" autostart="-1" />
+			<goals type="paths, (pipe, chilli), score" value="5, (1, 0), 1000" />
+		</level>
+
+		<level uid="668" map="746" num="6-9" name="LEVEL_6_9" >
+			<type theme="house" mode="normal" trailLength="5"/>
+			<music play="sound/music/CM_Haunted.sps" win="sound/music/CM_Haunted_Win.sps" lose="" />
+			<times start="400" bronze="40" silver="50" gold="60" platinum="64" />
+			<unlocked by1="666" by2="6667" secret="false" autostart="-1" />
+			<goals type="combo_twopair, time, paths" value="1, 35, 3" />
+		</level>
+
+		<level uid="669" map="737" num="6-10" name="LEVEL_6_10">
+			<type theme="house" mode="normal" trailLength="5"/>
+			<music play="sound/music/CM_Haunted.sps" win="sound/music/CM_Haunted_Win.sps" lose="" />
+			<times start="400" bronze="40" silver="50" gold="60" platinum="75" />
+			<unlocked by1="668" by2="-1" secret="false" autostart="-1" />
+			<goals type="time, paths, (pipe, score)" value="15, 3, (1, 530)" />
+		</level>
+
+		<level uid="670" map="735" num="6-11" name="LEVEL_6_11" world_bg="true">
+			<type theme="house" mode="normal" trailLength="5"/>
+			<music play="sound/music/CM_Haunted.sps" win="sound/music/CM_Haunted_Win.sps" lose="" />
+			<times start="400" bronze="50" silver="59" gold="70" platinum="72" />
+			<unlocked by1="669" by2="-1" secret="false" autostart="-1" />
+			<goals type="score, time, paths" value="320, 55, 10" />
+		</level>
+
+		<level uid="671" map="531" num="6-Boss" name="LEVEL_6_Boss" >
+			<type theme="house" mode="infinite" trailLength="5" story="world06_boss"/>
+			<music play="sound/music/CM_Alleys.sps" />
+			<times start="0" bronze="0" silver="30" gold="10" platinum="8" />
+			<unlocked by1="670" by2="-1" secret="false" autostart="6102" />
+		</level>
+
+		<level uid="6102" map="797" num="6-Boss" name="LEVEL_6_Boss" >
+			<type theme="house" mode="boss" trailLength="5"/>
+			<music play="sound/music/CM_Factories.sps" />
+			<times start="60" bronze="0" silver="30" gold="10" platinum="8" />
+			<unlocked by1="671" by2="-1" secret="false" autostart="-1" />
+			<extra dark="true" />
+		</level>
+
+		<level uid="6660" map="732" num="6-H1" name="LEVEL_6_H1" world_bg="true">
+			<type theme="house" mode="normal" trailLength="5"/>
+			<music play="sound/music/CM_Haunted.sps" win="sound/music/CM_Haunted_Win.sps" lose="" />
+			<times start="300" bronze="60" silver="70" gold="79" platinum="90" />
+			<unlocked by1="659" by2="-1" secret="true" autostart="-1" />
+			<goals type="balloon, score, chilli" value="0, 230, 1" />
+		</level>
+
+		<level uid="6667" map="558" num="6-H2" name="LEVEL_6_H2" >
+			<type theme="house" mode="normal" trailLength="5"/>
+			<music play="sound/music/CM_Haunted.sps" win="sound/music/CM_Haunted_Win.sps" lose="" />
+			<times start="700" bronze="120" silver="140" gold="150" platinum="250" />
+			<unlocked by1="666" by2="-1" secret="true" autostart="-1" />
+			<goals type="combo_straight, combo_fullhouse, time" value="2, 2, 40" />
+		</level>
+
+		<level uid="6777" map="557" num="6-S" name="LEVEL_6_S" >
+			<type theme="house" mode="normal" trailLength="5"/>
+			<music play="sound/music/CM_Haunted.sps" win="sound/music/CM_Haunted_Win.sps" lose="" />
+			<times start="300" bronze="80" silver="100" gold="120" platinum="130" />
+			<unlocked by1="-1" by2="-1" secret="true" autostart="-1" />
+			<goals type="paths, time, spotted" value="6, 50, 0" />
+		</level>
+	</world>
+
+	<!--
+		WORLD 7A
+	-->
+	<world type="6" name=" " clouds="true">
+		<level uid="72" map="809" num="7-1" name="LEVEL_7_1" >
+			<type theme="house" mode="normal" trailLength="5"/>
+			<music play="sound/music/CM_Jungle.sps" win="sound/music/CM_Jungle_Win.sps" lose="" />
+			<times start="120" bronze="80" silver="90" gold="100" platinum="123" />
+			<unlocked by1="671" by2="-1" secret="false" autostart="-1" />
+		</level>
+	<!--
+		Replaced map 583 with 809 temporarily
+	-->
+		<level uid="73" map="810" num="7-2" name="LEVEL_7_2" >
+			<type theme="house" mode="normal" trailLength="5"/>
+			<music play="sound/music/CM_Jungle.sps" win="sound/music/CM_Jungle_Win.sps" lose="" />
+			<times start="180" bronze="100" silver="150" gold="200" platinum="260" />
+			<unlocked by1="72" by2="-1" secret="false" autostart="-1" />
+		</level>
+	<!--
+		Replaced map 567 with 810 temporarily
+	-->
+		<level uid="74" map="578" num="7-3" name="LEVEL_7_3" >
+			<type theme="house" mode="normal" trailLength="5"/>
+			<music play="sound/music/CM_Jungle.sps" win="sound/music/CM_Jungle_Win.sps" lose="" />
+			<times start="60" bronze="110" silver="120" gold="125" platinum="130" />
+			<unlocked by1="73" by2="-1" secret="false" autostart="-1" />
+		</level>
+		
+		<level uid="75" map="571" num="7-4" name="LEVEL_7_4" >
+			<type theme="house" mode="normal" trailLength="5"/>
+			<music play="sound/music/CM_Jungle.sps" win="sound/music/CM_Jungle_Win.sps" lose="" />
+			<times start="90" bronze="90" silver="100" gold="108" platinum="119" />
+			<unlocked by1="74" by2="-1" secret="false" autostart="-1" />
+		</level>
+			
+		<level uid="76" map="580" num="7-5" name="LEVEL_7_5" >
+			<type theme="house" mode="normal" trailLength="5"/>
+			<music play="sound/music/CM_Jungle.sps" win="sound/music/CM_Jungle_Win.sps" lose="" />
+			<times start="120" bronze="150" silver="200" gold="290" platinum="420" />
+			<unlocked by1="75" by2="-1" secret="false" autostart="-1" />
+		</level>
+		
+		<level uid="77" map="540" num="7-6" name="LEVEL_7_6" >
+			<type theme="house" mode="normal" trailLength="5"/>
+			<music play="sound/music/CM_Jungle.sps" win="sound/music/CM_Jungle_Win.sps" lose="" />
+			<times start="120" bronze="150" silver="250" gold="305" platinum="340" />
+			<unlocked by1="76" by2="-1" secret="false" autostart="-1" />
+		</level>
+		
+		<level uid="78" map="741" num="7-7" name="LEVEL_7_7" >
+			<type theme="house" mode="normal" trailLength="5"/>
+			<music play="sound/music/CM_Jungle.sps" win="sound/music/CM_Jungle_Win.sps" lose="" />
+			<times start="60" bronze="120" silver="130" gold="145" platinum="150" />
+			<unlocked by1="76" by2="-1" secret="false" autostart="-1" />
+		</level>
+		
+		<level uid="79" map="725" num="7-8" name="LEVEL_7_8" >
+			<type theme="house" mode="normal" trailLength="5"/>
+			<music play="sound/music/CM_Jungle.sps" win="sound/music/CM_Jungle_Win.sps" lose="" />
+			<times start="60" bronze="150" silver="190" gold="200" platinum="220" />
+			<unlocked by1="78" by2="-1" secret="false" autostart="-1" />
+		</level>
+		
+		<level uid="80" map="576" num="7-9" name="LEVEL_7_9" >
+			<type theme="house" mode="normal" trailLength="5"/>
+			<music play="sound/music/CM_Jungle.sps" win="sound/music/CM_Jungle_Win.sps" lose="" />
+			<times start="180" bronze="100" silver="140" gold="150" platinum="160" />
+			<unlocked by1="79" by2="-1" secret="false" autostart="-1" />
+		</level>
+		
+		<level uid="801" map="816" num="7-Boss" name="LEVEL_7_BOSS" >
+			<type theme="house" mode="infinite" trailLength="5" story="world06_boss"/>
+			<music play="sound/music/CM_Jungle.sps" />
+			<times start="0" bronze="0" silver="30" gold="10" platinum="8" />
+			<unlocked by1="80" by2="-1" secret="false" autostart="802" />
+		</level>
+
+		<level uid="802" map="817" num="7-Boss" name="LEVEL_7_BOSS" >
+			<type theme="house" mode="boss" trailLength="5"/>
+			<music play="sound/music/CM_Jungle.sps" />
+			<times start="60" bronze="0" silver="30" gold="10" platinum="8" />
+			<unlocked by1="801" by2="-1" secret="false" autostart="-1" />
+		</level>
+				
+		<level uid="8001" map="788" num="7-H1"name="LEVEL_7_H1" >
+			<type theme="house" mode="normal" trailLength="5"/>
+			<music play="sound/music/CM_Jungle.sps" win="sound/music/CM_Jungle_Win.sps" lose="" />
+			<times start="60" bronze="150" silver="190" gold="200" platinum="220" />
+			<unlocked by1="-1" by2="-1" secret="true" autostart="-1" />
+		</level>		
+	</world>
+
+	<world type="7" name=" ">
+		<level uid="81" map="734" name="LEVEL_8_1" >
+			<type theme="house" mode="normal" trailLength="5"/>
+			<music play="sound/music/CM_Volcano.sps" win="sound/music/CM_Volcano_Win.sps" lose="" />
+			<times start="60" bronze="80" silver="90" gold="100" platinum="103" />
+			<unlocked by1="80" by2="-1" secret="false" autostart="-1" />
+		</level>
+		
+		<level uid="82" map="740" name="LEVEL_8_2" >
+			<type theme="house" mode="normal" trailLength="5"/>
+			<music play="sound/music/CM_Volcano.sps" win="sound/music/CM_Volcano_Win.sps" lose="" />
+			<times start="90" bronze="100" silver="125" gold="135" platinum="140" />
+			<unlocked by1="81" by2="-1" secret="false" autostart="-1" />
+		</level>
+		
+		<level uid="83" map="739" name="LEVEL_8_3" >
+			<type theme="house" mode="normal" trailLength="5"/>
+			<music play="sound/music/CM_Volcano.sps" win="sound/music/CM_Volcano_Win.sps" lose="" />
+			<times start="60" bronze="45" silver="50" gold="55" platinum="60" />
+			<unlocked by1="82" by2="-1" secret="false" autostart="-1" />
+		</level>
+		
+		<level uid="84" map="742" name="LEVEL_8_4" >
+			<type theme="house" mode="normal" trailLength="5"/>
+			<music play="sound/music/CM_Volcano.sps" win="sound/music/CM_Volcano_Win.sps" lose="" />
+			<times start="60" bronze="290" silver="300" gold="320" platinum="325" />
+			<unlocked by1="83" by2="-1" secret="false" autostart="-1" />
+		</level>
+
+		<level uid="85" map="755" name="LEVEL_8_5" >
+			<type theme="house" mode="normal" trailLength="5"/>
+			<music play="sound/music/CM_Volcano.sps" win="sound/music/CM_Volcano_Win.sps" lose="" />
+			<times start="60" bronze="0" silver="30" gold="10" platinum="8" />
+			<unlocked by1="84" by2="-1" secret="false" autostart="-1" />
+		</level>
+		
+		<level uid="86" map="581" name="LEVEL_8_6" >
+			<type theme="house" mode="normal" trailLength="5"/>
+			<music play="sound/music/CM_Volcano.sps" win="sound/music/CM_Volcano_Win.sps" lose="" />
+			<times start="120" bronze="40" silver="50" gold="55" platinum="60" />
+			<unlocked by1="85" by2="-1" secret="false" autostart="-1" />
+		</level>
+		
+		<level uid="88" map="763" name="LEVEL_8_7" >
+			<type theme="house" mode="normal" trailLength="5"/>
+			<music play="sound/music/CM_Volcano.sps" win="sound/music/CM_Volcano_Win.sps" lose="" />
+			<times start="90" bronze="150" silver="180" gold="200" platinum="260" />
+			<unlocked by1="86" by2="87" secret="false" autostart="-1" />
+		</level>
+		
+		<level uid="89" map="744" name="LEVEL_8_8" >
+			<type theme="house" mode="normal" trailLength="5"/>
+			<music play="sound/music/CM_Volcano.sps" win="sound/music/CM_Volcano_Win.sps" lose="" />
+			<times start="180" bronze="120" silver="130" gold="150" platinum="170" />
+			<unlocked by1="88" by2="-1" secret="false" autostart="-1" />
+		</level>
+		
+		<level uid="90" map="582" name="LEVEL_8_9" >
+			<type theme="house" mode="normal" trailLength="5"/>
+			<music play="sound/music/CM_Volcano.sps" win="sound/music/CM_Volcano_Win.sps" lose="" />
+			<times start="120" bronze="40" silver="50" gold="65" platinum="72" />
+			<unlocked by1="89" by2="-1" secret="false" autostart="-1" />
+		</level>
+		
+		<level uid="91" map="575" name="LEVEL_8_Boss" >
+			<type theme="house" mode="infinite" trailLength="5"/>
+			<music play="sound/music/CM_Volcano.sps" win="sound/music/CM_Volcano_Win.sps" lose="" />
+			<times start="240" bronze="0" silver="30" gold="10" platinum="8" />
+			<unlocked by1="90" by2="-1" secret="false" autostart="8214" />
+		</level>
+		
+		<level uid="92" map="529" name="LEVEL_8_S" >
+			<type theme="house" mode="normal" trailLength="5"/>
+			<music play="sound/music/CM_Volcano.sps" win="sound/music/CM_Volcano_Win.sps" lose="" />
+			<times start="90" bronze="40" silver="50" gold="110" platinum="120" />
+			<unlocked by1="90" by2="-1" secret="false" autostart="-1" />
+		</level>
+		
+		<level uid="887" map="738" name="LEVEL_8_H1" >
+			<type theme="house" mode="normal" trailLength="5"/>
+			<music play="sound/music/CM_Volcano.sps" win="sound/music/CM_Volcano_Win.sps" lose="" />
+			<times start="60" bronze="20" silver="25" gold="28" platinum="30" />
+			<unlocked by1="85" by2="-1" secret="true" autostart="-1" />
+		</level>
+	
+	<!--
+		WORLD 7 END BOSS SECTIONS
+	-->
+		<level uid="8200" map="764" name="LEVEL_8_Boss2" >
+			<type theme="house" mode="normal" trailLength="5"/>
+			<music play="sound/music/CM_Volcano.sps" win="sound/music/CM_Volcano_Win.sps" lose="" />
+			<times start="0" bronze="0" silver="30" gold="10" platinum="8" />
+			<unlocked by1="-1" by2="-1" secret="false" autostart="8210" />
+		</level>
+		
+		<level uid="8203" map="767" name="LEVEL_8_Boss2" >
+			<type theme="house" mode="normal" trailLength="5"/>
+			<music play="sound/music/CM_Volcano.sps" win="sound/music/CM_Volcano_Win.sps" lose="" />
+			<times start="0" bronze="0" silver="30" gold="10" platinum="8" />
+			<unlocked by1="-1" by2="-1" secret="false" autostart="8215" />
+		</level>
+		
+		<level uid="8204" map="768" name="LEVEL_8_Boss2" >
+			<type theme="house" mode="normal" trailLength="5"/>
+			<music play="sound/music/CM_Volcano.sps" win="sound/music/CM_Volcano_Win.sps" lose="" />
+			<times start="0" bronze="0" silver="30" gold="10" platinum="8" />
+			<unlocked by1="-1" by2="-1" secret="false" autostart="8211" />
+		</level>
+		
+		<level uid="8205" map="769" name="LEVEL_8_Boss2" >
+			<type theme="house" mode="normal" trailLength="5"/>
+			<music play="sound/music/CM_Volcano.sps" win="sound/music/CM_Volcano_Win.sps" lose="" />
+			<times start="0" bronze="0" silver="30" gold="10" platinum="8" />
+			<unlocked by1="-1" by2="-1" secret="false" autostart="8204" />
+			<extra scrolls="true" />
+		</level>
+		
+		<level uid="8206" map="770" name="LEVEL_8_Boss2" >
+			<type theme="house" mode="normal" trailLength="5"/>
+			<music play="sound/music/CM_Volcano.sps" win="sound/music/CM_Volcano_Win.sps" lose="" />
+			<times start="0" bronze="0" silver="30" gold="10" platinum="8" />
+			<unlocked by1="-1" by2="-1" secret="false" autostart="8216" />
+		</level>
+		
+		<level uid="8207" map="771" name="LEVEL_8_Boss2" >
+			<type theme="house" mode="normal" trailLength="5"/>
+			<music play="sound/music/CM_Volcano.sps" win="sound/music/CM_Volcano_Win.sps" lose="" />
+			<times start="0" bronze="0" silver="30" gold="10" platinum="8" />
+			<unlocked by1="-1" by2="-1" secret="false" autostart="8203" />
+		</level>
+		
+		<level uid="8210" map="774" name="LEVEL_8_Boss2" >
+			<type theme="house" mode="normal" trailLength="5"/>
+			<music play="sound/music/CM_Volcano.sps" win="sound/music/CM_Volcano_Win.sps" lose="" />
+			<times start="0" bronze="0" silver="30" gold="10" platinum="8" />
+			<unlocked by1="-1" by2="-1" secret="false" autostart="8206" />
+		</level>
+		
+		<level uid="8211" map="783" name="LEVEL_8_Boss2" >
+			<type theme="house" mode="normal" trailLength="5"/>
+			<music play="sound/music/CM_Volcano.sps" win="sound/music/CM_Volcano_Win.sps" lose="" />
+			<times start="0" bronze="0" silver="30" gold="10" platinum="8" />
+			<unlocked by1="-1" by2="-1" secret="false" autostart="8200" />
+		</level>
+		
+		
+		<level uid="8214" map="781" name="LEVEL_8_Boss2" >
+			<type theme="house" mode="boss" trailLength="5"/>
+			<music play="sound/music/CM_Volcano.sps" win="sound/music/CM_Volcano_Win.sps" lose="" />
+			<times start="700" bronze="0" silver="30" gold="10" platinum="8" />
+			<unlocked by1="-1" by2="-1" secret="false" autostart="8205" />
+		</level>
+		
+		<level uid="8215" map="779" name="LEVEL_8_Boss2" >
+			<type theme="house" mode="boss" trailLength="5"/>
+			<music play="sound/music/CM_Volcano.sps" win="sound/music/CM_Volcano_Win.sps" lose="" />
+			<times start="0" bronze="0" silver="30" gold="10" platinum="8" />
+			<unlocked by1="-1" by2="-1" secret="false" autostart="-1" />
+		</level>
+		
+		<level uid="8216" map="780" name="LEVEL_8_Boss2" >
+			<type theme="house" mode="normal" trailLength="5"/>
+			<music play="sound/music/CM_Volcano.sps" win="sound/music/CM_Volcano_Win.sps" lose="" />
+			<times start="0" bronze="0" silver="30" gold="10" platinum="8" />
+			<unlocked by1="-1" by2="-1" secret="false" autostart="8207" />
+		</level>	
+	</world>
+
+	
+	<challenges>
+		<stage uid="1">
+			<challenge uid="1" map="803" goal="800" time="410" unlock="0" trailLength="1" music="sound/music/CM_Urban.sps" />
+			<challenge uid="2" map="800" goal="200" time="222" unlock="0" trailLength="1" music="sound/music/CM_Homes.sps" />
+			<challenge uid="3" map="801" goal="750" time="350" unlock="0" trailLength="1" music="sound/music/CM_Urban.sps" />
+			<challenge uid="4" map="805" goal="150" time="250" unlock="0" trailLength="1" music="sound/music/CM_Factories.sps" />
+			<challenge uid="5" map="799" goal="130" time="147" unlock="1" trailLength="1" music="sound/music/CM_Homes.sps" />
+			<challenge uid="6" map="802" goal="400" time="300" unlock="1" trailLength="1" music="sound/music/CM_Factories.sps" />
+			<challenge uid="7" map="813" goal="100" time="214" unlock="1" trailLength="1" music="sound/music/CM_Haunted.sps" />
+			<challenge uid="8" map="812" goal="200" time="214" unlock="2" trailLength="2" music="sound/music/CM_Homes.sps" />
+			<challenge uid="9" map="814" goal="150" time="214" unlock="2" trailLength="1" music="sound/music/CM_Urban.sps" />
+			<challenge uid="10" map="806" goal="200" time="200" unlock="2" trailLength="2" music="sound/music/CM_Factories.sps" />
+		</stage>
+	</challenges>
+	
+	<!--
+	
+	
+	
+	-->
+	<!--
+		Pickups!
+		
+		Make sure the image order in pickups.png matches the order below!
+		the UID's can be out of order, they just need to be in icon order
+	-->
+	<pickup uid="9" name="Space Helmet" />
+	<pickup uid="15" name="Clipboard" />
+	<pickup uid="19" name="Gift Box" />
+	<pickup uid="12" name="PuzzleQuest Gem" />
+	<pickup uid="13" name="Firemint Lotto Ticket" />
+	<pickup uid="8" name="Flight Control Plane" />
+	<pickup uid="20" name="Olive" />
+	<pickup uid="10" name="Real Racing Car" />
+	<pickup uid="6" name="Sunglasses" />
+	<pickup uid="11" name="Knight" />
+	<pickup uid="18" name="Locket" />
+	<pickup uid="17" name="Lost Coin" />
+	<pickup uid="7" name="Paper Clip" />
+	<pickup uid="4" name="Pencil Sharpener" />
+	<pickup uid="5" name="Postage Stamp" />
+	<pickup uid="14" name="Ruby Ring" />
+	<pickup uid="1" name="Spinning Top" />
+	<pickup uid="16" name="Thimble" />
+	<pickup uid="2" name="Toy Car" />
+	<pickup uid="3" name="Toy Plane" />
+	<pickup uid="21" name="Cheezeburger" />
+</root>

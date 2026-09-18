@@ -1,0 +1,31 @@
+# 3ds Max Wavefront OBJ Exporter v0.94b - (c)2007 guruware
+# File Created: 30.11.2010 16:20:34
+
+mtllib world02_road10.mtl
+
+#
+# object world02_road10
+#
+
+v  45.0122 0.0150 -83.5969
+v  100.0660 0.0150 -116.5405
+v  106.9520 0.0150 -74.8617
+v  48.5856 0.0150 -38.3331
+# 4 vertices
+
+vn 0.0000 -1.0000 -0.0000
+# 1 vertex normals
+
+vt 0.6127 0.1860 0.0000
+vt 0.7506 0.0623 0.0000
+vt 0.7678 0.2188 0.0000
+vt 0.6217 0.3560 0.0000
+# 4 texture coords
+
+g world02_road10
+usemtl world02_map03
+s 1
+f 1/1/1 2/2/1 3/3/1 
+f 3/3/1 4/4/1 1/1/1 
+# 2 faces
+

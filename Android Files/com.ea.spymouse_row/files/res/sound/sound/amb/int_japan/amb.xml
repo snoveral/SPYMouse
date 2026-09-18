@@ -1,0 +1,8 @@
+<root>
+	<loop file="int_japan_loop.sps"/>
+	<ambience min_delay="2.0" max_delay="5.0">
+		<sound file="woodcreak_1.sps"/>
+		<sound file="woodcreak_2.sps"/>
+		<sound file="woodcreak_3.sps"/>
+	</ambience>
+</root>

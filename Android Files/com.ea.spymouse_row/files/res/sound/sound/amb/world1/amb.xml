@@ -1,0 +1,24 @@
+<root>
+	<loop file="bg_loop_map01.sps"/>
+	<ambience min_delay="0.5" max_delay="1.5">
+		<sound file="bg_bird_a1.sps"/>
+		<sound file="bg_bird_a2.sps"/>
+		<sound file="bg_bird_a3.sps"/>
+		<sound file="bg_bird_a4.sps"/>
+		<sound file="bg_bird_a5.sps"/>
+		<sound file="bg_bird_a6.sps"/>
+		<sound file="bg_bird_a7.sps"/>
+	</ambience>
+	<ambience min_delay="1.5" max_delay="3.0">
+		<sound file="bg_bird_b1.sps"/>
+		<sound file="bg_bird_b2.sps"/>
+		<sound file="bg_bird_b3.sps"/>
+		<sound file="bg_bird_b4.sps"/>
+	</ambience>
+	<ambience min_delay="9.0" max_delay="25.0">
+		<sound file="bg_dog_1.sps"/>
+		<sound file="bg_dog_2.sps"/>
+		<sound file="bg_dog_3.sps"/>
+		<sound file="bg_dog_4.sps"/>
+	</ambience>
+</root>

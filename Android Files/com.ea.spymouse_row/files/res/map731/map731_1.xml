@@ -1,0 +1,29 @@
+<Level BackGroundFileName = "map731_1.jpg" IconsFileName = "\Icons\Icons.xml" >
+	<Vertex x = 112 y = 107 Flags = 8 Property = 0 id = 0 Tag = 0 />
+	<Vertex x = 257 y = 107 Flags = 8 Property = 0 id = 1 Tag = 0 />
+	<Vertex x = 257 y = 190 Flags = 8 Property = 0 id = 2 Tag = 0 />
+	<Vertex x = 134 y = 190 Flags = 8 Property = 0 id = 3 Tag = 0 />
+	<Vertex x = 124 y = 198 Flags = 8 Property = 0 id = 4 Tag = 0 />
+	<Vertex x = 112 y = 191 Flags = 8 Property = 0 id = 5 Tag = 0 />
+	<Vertex x = 117 y = 191 Flags = 8 Property = 0 id = 6 Tag = 0 />
+	<Vertex x = 224 y = 158 Flags = 10 Property = 14 id = 7 Tag = 0 />
+	<Vertex x = 125 y = 189 Flags = 10 Property = 31 id = 8 Tag = 1 />
+	<Vertex x = 55 y = 203 Flags = 8 Property = 101 id = 9 Tag = 1 MovingPlatformSpeed = 256 />
+	<Vertex x = 55 y = 184 Flags = 8 Property = 100 id = 10 Tag = 0 />
+	<Vertex x = 162 y = 132 Flags = 10 Property = 260 id = 11 Tag = 1056 />
+	<Vertex x = 184 y = 135 Flags = 10 Property = 260 id = 12 Tag = 1055 />
+	<Vertex x = 206 y = 140 Flags = 10 Property = 260 id = 13 Tag = 1059 />
+	<Vertex x = 206 y = 173 Flags = 10 Property = 260 id = 14 Tag = 1061 />
+	<Vertex x = 184 y = 178 Flags = 10 Property = 260 id = 15 Tag = 1057 />
+	<Vertex x = 140 y = 183 Flags = 10 Property = 260 id = 16 Tag = 1055 />
+	<Vertex x = 162 y = 182 Flags = 10 Property = 260 id = 17 Tag = 1056 />
+	<Vertex x = 242 y = 185 Flags = 10 Property = 209 id = 18 Tag = 0 />
+	<Line Flags = 10 VertexA = 0 VertexB = 1 Property = 0 Tag = 0 />
+	<Line Flags = 10 VertexA = 1 VertexB = 2 Property = 0 Tag = 0 />
+	<Line Flags = 10 VertexA = 2 VertexB = 3 Property = 0 Tag = 0 />
+	<Line Flags = 10 VertexA = 9 VertexB = 10 Property = 0 Tag = 0 />
+	<Line Flags = 10 VertexA = 3 VertexB = 4 Property = 0 Tag = 0 />
+	<Line Flags = 10 VertexA = 5 VertexB = 0 Property = 0 Tag = 0 />
+	<Line Flags = 10 VertexA = 5 VertexB = 6 Property = 0 Tag = 0 />
+	<Line Flags = 10 VertexA = 6 VertexB = 4 Property = 0 Tag = 0 />
+</Level>

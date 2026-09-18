@@ -1,0 +1,32 @@
+
+<!--
+cx 		= cell x 
+cy 		= cell y
+Position 0,0 is the top left. 
+
+delay 	= frame speed in seconds, 1.0 = one second
+
+ox		= frame position offset x
+oy 		= frame position offset y
+
+-->
+<Animation version="1" image="sprites/fight_fire_2.png" frameWidth="50" frameHeight="50">
+	<Sequence name="flamedeath2">
+		<Frame cx="0" cy="0" delay="0.1" ox="0" oy="6"/>
+		<Frame cx="1" cy="0" delay="0.1" ox="0" oy="6"/>
+		<Frame cx="2" cy="0" delay="0.1" ox="0" oy="6"/>
+		<Frame cx="3" cy="0" delay="0.1" ox="0" oy="6"/>
+		<Frame cx="0" cy="1" delay="0.1" ox="0" oy="6"/>
+		<Frame cx="1" cy="1" delay="0.1" ox="0" oy="6"/>
+		<Frame cx="2" cy="1" delay="0.1" ox="0" oy="6"/>
+		<Frame cx="3" cy="1" delay="0.1" ox="0" oy="6"/>
+		<Frame cx="0" cy="2" delay="0.1" ox="0" oy="6"/>
+		<Frame cx="1" cy="2" delay="0.1" ox="0" oy="6"/>
+		<Frame cx="2" cy="2" delay="0.1" ox="0" oy="6"/>
+		<Frame cx="3" cy="2" delay="0.1" ox="0" oy="6"/>
+		<Frame cx="0" cy="3" delay="0.1" ox="0" oy="6"/>
+		<Frame cx="1" cy="3" delay="0.1" ox="0" oy="6"/>
+		<Frame cx="2" cy="3" delay="0.1" ox="0" oy="6"/>
+		<Frame cx="3" cy="3" delay="10.0" ox="0" oy="6"/>
+	</Sequence>
+</Animation>

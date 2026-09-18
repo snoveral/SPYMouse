@@ -1,0 +1,32 @@
+# 3ds Max Wavefront OBJ Exporter v0.94b - (c)2007 guruware
+# File Created: 08.08.2011 15:06:36
+
+mtllib world08_cathead.mtl
+
+#
+# object world08_cathead_old
+#
+
+v  24.9558 -0.5000 -46.5105
+v  24.9558 -0.5000 52.4304
+v  -73.3350 -0.5000 52.4304
+v  -73.3350 -0.5000 -46.5105
+# 4 vertices
+
+vn -0.0000 1.0000 0.0000
+vn 0.0000 1.0000 0.0000
+# 2 vertex normals
+
+vt 0.4670 0.4377 0.0000
+vt 0.4670 0.6700 0.0000
+vt 0.6977 0.6700 0.0000
+vt 0.6977 0.4378 0.0000
+# 4 texture coords
+
+g world08_cathead_old
+usemtl world06_map02
+s 1
+f 3/3/1 2/2/1 1/1/1 
+f 1/1/1 4/4/2 3/3/1 
+# 2 faces
+

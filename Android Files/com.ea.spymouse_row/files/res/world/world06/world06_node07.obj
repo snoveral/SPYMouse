@@ -1,0 +1,32 @@
+# 3ds Max Wavefront OBJ Exporter v0.94b - (c)2007 guruware
+# File Created: 08.12.2010 16:54:27
+
+mtllib world06_node07.mtl
+
+#
+# object world06_node07
+#
+
+v  -13.7311 -0.0100 13.5327
+v  32.2058 -0.0100 13.5327
+v  32.2058 -0.0100 39.4134
+v  -13.7311 -0.0100 39.4134
+# 4 vertices
+
+vn -0.0000 -1.0000 -0.0000
+vn 0.0000 -1.0000 -0.0000
+# 2 vertex normals
+
+vt 0.3235 0.2640 0.0000
+vt 0.4313 0.2640 0.0000
+vt 0.4313 0.3252 0.0000
+vt 0.3235 0.3252 0.0000
+# 4 texture coords
+
+g world06_node07
+usemtl world06_map02
+s 1
+f 1/1/1 2/2/2 3/3/1 
+f 3/3/1 4/4/1 1/1/1 
+# 2 faces
+

@@ -1,0 +1,58 @@
+<!-----------------------------------------------------------------------------
+	File: map_events.xml
+	Created By: Joshua Boggs, 2010
+	Copyright 2010 Firemint. All rights reserved
+
+	Description: This file holds the events and cutscenes inside this map,
+				 and describes how they relate to one another.
+------------------------------------------------------------------------------>
+<root>
+
+	<!------------------------------------------------------------------------>
+	<!-- Map our events to cutscenes
+	
+		------------------------------
+		Event names are predefined as:
+			intro:		fired once at the beginning of a map 
+			restart: 	fired if you have died, and the map restarts
+			outro:		fired on exit of the map
+			boss_win:	fired when boss has been defeated
+			
+		In addition, the game allows up to 8 custom events per map. These are placed
+		in tool2D and fired via trigger areas. To fire events from trigger areas,
+		name your event: "custom_0#" ;where # is the number of the trigger type in tool2D
+		
+	-->
+	<events>
+		<event name="intro" 		callback="boss_intro"/>
+		<event name="restart" 		callback="boss_restart"/>
+		<event name="boss_win" 		callback="win"/>
+	</events>
+
+	<!------------------------------------------------------------------------
+		Cutscenes are just a collection of dialogue, paths, and scripted sequences.
+			- Dialogue references dialogue.xml, sequence references a name of a function, 
+			  and path references a path in the level, and an actor to run it (see dialogue.xml for available actors)
+	 ------------------------------------------------------------------------>
+	<cutscenes>
+		<cutscene name="boss_intro">
+			<sequence name="showFluffy" />
+			<path tag="900" actor="mouse" />
+			<sequence name="slamEntrance" />
+			<sequence name="wait" />
+			<path tag="901" actor="mouse" />
+			<dialogue name="boss1_intro" />
+			<path tag="902" actor="fluffy" />
+			<sequence name="hideFluffy" />
+			<sequence name="closeExit" />
+		</cutscene>
+		
+		<cutscene name="boss_restart">
+		</cutscene>
+		
+		<cutscene name="win">
+			<sequence name="blowUpDroid" />
+		</cutscene>
+	</cutscenes>	
+	
+</root>

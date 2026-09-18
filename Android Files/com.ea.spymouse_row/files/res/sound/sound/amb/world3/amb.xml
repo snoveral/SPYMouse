@@ -1,0 +1,13 @@
+<root>
+	<loop file="bg_loop_map03.sps"/>
+	<ambience min_delay="2.0" max_delay="4.5">
+		<sound file="bg_saw_1.sps"/>
+		<sound file="bg_saw_2.sps"/>
+		<sound file="bg_saw_3.sps"/>
+	</ambience>
+	<ambience min_delay="7.0" max_delay="16.0">
+		<sound file="bg_cow_1.sps"/>
+		<sound file="bg_cow_2.sps"/>
+		<sound file="bg_cow_3.sps"/>
+	</ambience>
+</root>

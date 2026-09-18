@@ -1,0 +1,8 @@
+<root>
+	<loop file="int_factory_loop.sps"/>
+	<ambience min_delay="5.0" max_delay="14.0">
+		<sound file="metalfx_1.sps"/>
+		<sound file="metalfx_2.sps"/>
+		<sound file="metalfx_3.sps"/>
+	</ambience>
+</root>

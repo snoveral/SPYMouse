@@ -1,0 +1,10 @@
+<root>
+	<loop file="bg_loop_map04.sps"/>
+	<ambience min_delay="1.5" max_delay="8.0">
+		<sound file="bg_jap_b1.sps"/>
+		<sound file="bg_jap_b2.sps"/>
+		<sound file="bg_jap_b3.sps"/>
+		<sound file="bg_jap_b4.sps"/>
+		<sound file="bg_jap_b5.sps"/>
+	</ambience>
+</root>

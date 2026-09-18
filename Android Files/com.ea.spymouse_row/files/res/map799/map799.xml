@@ -1,0 +1,111 @@
+<Level BackGroundFileName = "map799.jpg" IconsFileName = "\Icons\Icons.xml" >
+	<Vertex x = 180 y = 101 Flags = 8 Property = 0 id = 0 Tag = 0 />
+	<Vertex x = 184 y = 64 Flags = 8 Property = 0 id = 1 Tag = 0 />
+	<Vertex x = 197 y = 54 Flags = 8 Property = 0 id = 2 Tag = 0 />
+	<Vertex x = 295 y = 54 Flags = 8 Property = 0 id = 3 Tag = 0 />
+	<Vertex x = 307 y = 62 Flags = 8 Property = 0 id = 4 Tag = 0 />
+	<Vertex x = 311 y = 103 Flags = 8 Property = 0 id = 5 Tag = 0 />
+	<Vertex x = 349 y = 103 Flags = 8 Property = 0 id = 6 Tag = 0 />
+	<Vertex x = 352 y = 51 Flags = 8 Property = 0 id = 7 Tag = 0 />
+	<Vertex x = 403 y = 51 Flags = 8 Property = 0 id = 8 Tag = 0 />
+	<Vertex x = 398 y = 258 Flags = 8 Property = 0 id = 9 Tag = 0 />
+	<Vertex x = 69 y = 129 Flags = 8 Property = 0 id = 10 Tag = 0 />
+	<Vertex x = 308 y = 193 Flags = 8 Property = 0 id = 11 Tag = 0 />
+	<Vertex x = 413 y = 193 Flags = 8 Property = 0 id = 12 Tag = 0 />
+	<Vertex x = 69 y = 86 Flags = 8 Property = 0 id = 13 Tag = 0 />
+	<Vertex x = 54 y = 101 Flags = 8 Property = 0 id = 14 Tag = 0 />
+	<Vertex x = 69 y = 115 Flags = 8 Property = 0 id = 15 Tag = 0 />
+	<Vertex x = 87 y = 257 Flags = 8 Property = 0 id = 16 Tag = 0 />
+	<Vertex x = 71 y = 179 Flags = 8 Property = 0 id = 17 Tag = 0 />
+	<Vertex x = 71 y = 241 Flags = 8 Property = 0 id = 18 Tag = 0 />
+	<Vertex x = 79 y = 170 Flags = 8 Property = 0 id = 19 Tag = 0 />
+	<Vertex x = 79 y = 139 Flags = 8 Property = 0 id = 20 Tag = 0 />
+	<Vertex x = 410 y = 243 Flags = 8 Property = 0 id = 21 Tag = 0 />
+	<Vertex x = 409 y = 112 Flags = 8 Property = 0 id = 22 Tag = 0 />
+	<Vertex x = 403 y = 100 Flags = 8 Property = 0 id = 23 Tag = 0 />
+	<Vertex x = 141 y = 100 Flags = 8 Property = 0 id = 24 Tag = 0 />
+	<Vertex x = 137 y = 52 Flags = 8 Property = 0 id = 25 Tag = 0 />
+	<Vertex x = 71 y = 52 Flags = 8 Property = 0 id = 26 Tag = 0 />
+	<Vertex x = 185 y = 169 Flags = 8 Property = 0 id = 27 Tag = 0 />
+	<Vertex x = 309 y = 170 Flags = 8 Property = 0 id = 28 Tag = 0 />
+	<Vertex x = 309 y = 211 Flags = 8 Property = 0 id = 29 Tag = 0 />
+	<Vertex x = 185 y = 209 Flags = 8 Property = 0 id = 30 Tag = 0 />
+	<Vertex x = 69 y = 192 Flags = 8 Property = 0 id = 31 Tag = 0 />
+	<Vertex x = 188 y = 192 Flags = 8 Property = 0 id = 32 Tag = 0 />
+	<Vertex x = 299 y = 209 Flags = 8 Property = 0 id = 33 Tag = 0 />
+	<Vertex x = 299 y = 262 Flags = 8 Property = 0 id = 34 Tag = 0 />
+	<Vertex x = 120 y = 86 Flags = 10 Property = 1 id = 35 Tag = 0 />
+	<Vertex x = 64 y = 109 Flags = 10 Property = 241 id = 36 Tag = 1024 />
+	<Vertex x = 239 y = 250 Flags = 10 Property = 52 id = 37 Tag = 1 />
+	<Vertex x = 239 y = 234 Flags = 8 Property = 101 id = 38 Tag = 1 MovingPlatformSpeed = 256 />
+	<Vertex x = 364 y = 242 Flags = 10 Property = 60 id = 39 Tag = 0 />
+	<Vertex x = 244 y = 98 Flags = 10 Property = 11 id = 40 Tag = 0 />
+	<Vertex x = 380 y = 93 Flags = 10 Property = 67 id = 41 Tag = 223 />
+	<Vertex x = 266 y = 245 Flags = 10 Property = 66 id = 42 Tag = 24 />
+	<Vertex x = 328 y = 200 Flags = 10 Property = 214 id = 43 Tag = 223 />
+	<Vertex x = 369 y = 138 Flags = 10 Property = 52 id = 44 Tag = 45 />
+	<Vertex x = 369 y = 123 Flags = 8 Property = 101 id = 45 Tag = 45 MovingPlatformSpeed = 256 />
+	<Vertex x = 269 y = 149 Flags = 8 Property = 100 id = 46 Tag = 0 MovingPlatformSpeed = 256 />
+	<Vertex x = 94 y = 234 Flags = 8 Property = 102 id = 47 Tag = 0 MovingPlatformPauseTime = 6 MovingPlatformSpeed = 256 />
+	<Vertex x = 362 y = 69 Flags = 10 Property = 260 id = 48 Tag = 1062 />
+	<Vertex x = 88 y = 170 Flags = 10 Property = 260 id = 49 Tag = 1058 />
+	<Vertex x = 88 y = 156 Flags = 10 Property = 260 id = 50 Tag = 1057 />
+	<Vertex x = 130 y = 261 Flags = 10 Property = 260 id = 51 Tag = 1052 />
+	<Vertex x = 245 y = 71 Flags = 10 Property = 260 id = 52 Tag = 1062 />
+	<Vertex x = 227 y = 71 Flags = 10 Property = 260 id = 53 Tag = 1058 />
+	<Vertex x = 209 y = 71 Flags = 10 Property = 260 id = 54 Tag = 1055 />
+	<Vertex x = 403 y = 155 Flags = 10 Property = 260 id = 55 Tag = 1057 />
+	<Vertex x = 403 y = 169 Flags = 10 Property = 260 id = 56 Tag = 1056 />
+	<Vertex x = 380 y = 69 Flags = 10 Property = 260 id = 57 Tag = 1058 />
+	<Vertex x = 398 y = 69 Flags = 10 Property = 260 id = 58 Tag = 1057 />
+	<Vertex x = 148 y = 261 Flags = 10 Property = 260 id = 59 Tag = 1053 />
+	<Vertex x = 166 y = 261 Flags = 10 Property = 260 id = 60 Tag = 1056 />
+	<Vertex x = 263 y = 71 Flags = 10 Property = 260 id = 61 Tag = 1063 />
+	<Vertex x = 281 y = 71 Flags = 10 Property = 260 id = 62 Tag = 1062 />
+	<Vertex x = 403 y = 141 Flags = 10 Property = 260 id = 63 Tag = 1062 />
+	<Vertex x = 360 y = 200 Flags = 10 Property = 214 id = 64 Tag = 223 />
+	<Vertex x = 392 y = 200 Flags = 10 Property = 214 id = 65 Tag = 223 />
+	<Vertex x = 165 y = 123 Flags = 8 Property = 102 id = 66 Tag = 0 MovingPlatformSpeed = 256 />
+	<Vertex x = 96 y = 200 Flags = 10 Property = 214 id = 67 Tag = 223 />
+	<Vertex x = 128 y = 200 Flags = 10 Property = 214 id = 68 Tag = 223 />
+	<Vertex x = 160 y = 200 Flags = 10 Property = 214 id = 69 Tag = 223 />
+	<Vertex x = 299 y = 246 Flags = 10 Property = 225 id = 70 Tag = 24 />
+	<Vertex x = 184 y = 261 Flags = 10 Property = 260 id = 71 Tag = 1057 />
+	<Vertex x = 202 y = 261 Flags = 10 Property = 260 id = 72 Tag = 1053 />
+	<Line Flags = 10 VertexA = 0 VertexB = 1 Property = 0 Tag = 0 />
+	<Line Flags = 10 VertexA = 1 VertexB = 2 Property = 0 Tag = 0 />
+	<Line Flags = 10 VertexA = 2 VertexB = 3 Property = 0 Tag = 0 />
+	<Line Flags = 10 VertexA = 4 VertexB = 5 Property = 0 Tag = 0 />
+	<Line Flags = 10 VertexA = 5 VertexB = 6 Property = 0 Tag = 0 />
+	<Line Flags = 10 VertexA = 6 VertexB = 7 Property = 0 Tag = 0 />
+	<Line Flags = 10 VertexA = 7 VertexB = 8 Property = 0 Tag = 0 />
+	<Line Flags = 10 VertexA = 3 VertexB = 4 Property = 0 Tag = 0 />
+	<Line Flags = 10 VertexA = 11 VertexB = 12 Property = 0 Tag = 223 />
+	<Line Flags = 10 VertexA = 45 VertexB = 46 Property = 0 Tag = 0 />
+	<Line Flags = 10 VertexA = 38 VertexB = 47 Property = 0 Tag = 0 />
+	<Line Flags = 10 VertexA = 13 VertexB = 14 Property = 0 Tag = 0 />
+	<Line Flags = 10 VertexA = 14 VertexB = 15 Property = 0 Tag = 0 />
+	<Line Flags = 10 VertexA = 15 VertexB = 10 Property = 0 Tag = 0 />
+	<Line Flags = 10 VertexA = 15 VertexB = 13 Property = 0 Tag = 1024 />
+	<Line Flags = 10 VertexA = 9 VertexB = 16 Property = 0 Tag = 0 />
+	<Line Flags = 10 VertexA = 17 VertexB = 18 Property = 0 Tag = 0 />
+	<Line Flags = 10 VertexA = 18 VertexB = 16 Property = 0 Tag = 0 />
+	<Line Flags = 10 VertexA = 17 VertexB = 19 Property = 0 Tag = 0 />
+	<Line Flags = 10 VertexA = 19 VertexB = 20 Property = 0 Tag = 0 />
+	<Line Flags = 10 VertexA = 20 VertexB = 10 Property = 0 Tag = 0 />
+	<Line Flags = 10 VertexA = 9 VertexB = 21 Property = 0 Tag = 0 />
+	<Line Flags = 10 VertexA = 21 VertexB = 22 Property = 0 Tag = 0 />
+	<Line Flags = 10 VertexA = 22 VertexB = 23 Property = 0 Tag = 0 />
+	<Line Flags = 10 VertexA = 23 VertexB = 8 Property = 0 Tag = 0 />
+	<Line Flags = 10 VertexA = 0 VertexB = 24 Property = 0 Tag = 0 />
+	<Line Flags = 10 VertexA = 24 VertexB = 25 Property = 0 Tag = 0 />
+	<Line Flags = 10 VertexA = 25 VertexB = 26 Property = 0 Tag = 0 />
+	<Line Flags = 10 VertexA = 26 VertexB = 13 Property = 0 Tag = 0 />
+	<Line Flags = 10 VertexA = 27 VertexB = 28 Property = 0 Tag = 0 />
+	<Line Flags = 10 VertexA = 28 VertexB = 29 Property = 0 Tag = 0 />
+	<Line Flags = 10 VertexA = 29 VertexB = 30 Property = 0 Tag = 0 />
+	<Line Flags = 10 VertexA = 30 VertexB = 27 Property = 0 Tag = 0 />
+	<Line Flags = 10 VertexA = 31 VertexB = 32 Property = 0 Tag = 223 />
+	<Line Flags = 10 VertexA = 46 VertexB = 66 Property = 0 Tag = 0 />
+	<Line Flags = 10 VertexA = 33 VertexB = 34 Property = 0 Tag = 24 />
+</Level>

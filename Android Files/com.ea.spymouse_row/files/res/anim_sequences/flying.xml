@@ -1,0 +1,35 @@
+
+<!--
+cx 		= cell x 
+cy 		= cell y
+Position 0,0 is the top left. 
+
+delay 	= frame speed in seconds, 1.0 = one second
+
+ox		= frame position offset x
+oy 		= frame position offset y
+
+-->
+<Animation version="1" image="sprites/player_cannon.png" frameWidth="37" frameHeight="37">
+
+	<Sequence name="flying">
+		<Frame cx="0" cy="0" delay="0.05" ox="0" oy="0"/>
+		<Frame cx="1" cy="0" delay="0.05" ox="0" oy="0"/>
+		<Frame cx="2" cy="0" delay="0.05" ox="0" oy="0"/>
+		<Frame cx="3" cy="0" delay="0.05" ox="0" oy="0"/>
+	</Sequence>
+	
+	<Sequence name="landing">
+		<Frame cx="0" cy="2" delay="0.05" ox="0" oy="6"/>
+		<Frame cx="1" cy="2" delay="0.05" ox="0" oy="6"/>
+		<Frame cx="2" cy="2" delay="0.05" ox="0" oy="6"/>
+		<Frame cx="3" cy="2" delay="0.05" ox="0" oy="6"/>
+		<Frame cx="0" cy="3" delay="0.1" ox="0" oy="6"/>
+		<Frame cx="1" cy="3" delay="0.1" ox="0" oy="6"/>
+		<Frame cx="2" cy="3" delay="0.1" ox="0" oy="6"/>
+		<Frame cx="3" cy="3" delay="0.1" ox="0" oy="6"/>
+	</Sequence>
+	
+	
+
+</Animation>

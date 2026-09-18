@@ -1,0 +1,31 @@
+# 3ds Max Wavefront OBJ Exporter v0.94b - (c)2007 guruware
+# File Created: 03.10.2011 14:13:12
+
+mtllib world01_question_mark.mtl
+
+#
+# object world01_question_mark
+#
+
+v  -12.0892 -0.0275 -14.2652
+v  12.0892 -0.0275 -14.2652
+v  12.0892 -0.0275 14.2652
+v  -12.0892 -0.0275 14.2652
+# 4 vertices
+
+vn 0.0000 -1.0000 -0.0000
+# 1 vertex normals
+
+vt 0.5595 0.0067 0.0000
+vt 0.6162 0.0067 0.0000
+vt 0.6162 0.0736 0.0000
+vt 0.5595 0.0736 0.0000
+# 4 texture coords
+
+g world01_question_mark
+usemtl world01_map02
+s 1
+f 1/1/1 2/2/1 3/3/1 
+f 3/3/1 4/4/1 1/1/1 
+# 2 faces
+

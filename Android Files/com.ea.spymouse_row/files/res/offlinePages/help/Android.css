@@ -1,0 +1,80 @@
+body {
+	background-color:#153749;
+}
+
+.tutorialSize {
+	width:960px;
+	height:640px;
+	font-size:40px;
+	text-align:center;
+	color:#fff299;
+	text-shadow: #1b475f 2px 2px 2px;
+	font-family:"Marker Felt";
+	padding-top:120px;
+	height:520px;
+}
+.tutorialSize2 {
+	width:960px;
+	height:640px;
+	font-size:35px;
+	text-align:center;
+	color:#fff299;
+	text-shadow: #1b475f 2px 2px 2px;
+	font-family:"Marker Felt";
+	padding-top:120px;
+	height:520px;
+}
+#tutorial01 { 
+	background-image: url(images/draw_path@2x.png); 
+    -webkit-background-size: 960px 640px; 
+}
+#tutorial02 {
+	background-image:url(images/avoid_cats@2x.png);
+	-webkit-background-size: 960px 640px; 
+}
+#tutorial03 {
+	background-image:url(images/time@2x.png);
+	-webkit-background-size: 960px 640px; 
+}
+#tutorial04 {
+	background-image:url(images/cheese_combos@2x.png);
+	-webkit-background-size: 960px 640px;
+}
+#tutorial05 {
+	background-image:url(images/munch_hole@2x.png);
+	padding-top:160px;
+	height:480px;
+	-webkit-background-size: 960px 640px; 
+}
+#tutorial06 {
+	background-image:url(images/exit_hole@2x.png);
+	-webkit-background-size: 960px 640px; 
+}
+#tutorial07 {
+	background-image:url(images/backpack@2x.png);
+	-webkit-background-size: 960px 640px;
+}
+
+#list {
+	font-size:30px;
+	width:420px;
+	text-align:left;
+	float:right;
+}
+#list ul{
+	padding:0px 0 0 0;
+	margin:0;
+	list-style:none;
+}
+#list ul li{
+	padding:28px 0 0 0;
+}
+
+.nonlatin {
+	padding: 0px 0 0 0;
+}
+
+#list.nonlatin ul li {
+	padding:15px 0 0 0;
+}
+

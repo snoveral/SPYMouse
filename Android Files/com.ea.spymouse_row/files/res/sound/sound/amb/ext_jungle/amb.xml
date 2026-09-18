@@ -1,0 +1,9 @@
+<root>
+	<loop file="ext_jungle_loop.sps"/>
+	<ambience min_delay="4.5" max_delay="12.0">
+		<sound file="macaw_a1.sps"/>
+		<sound file="macaw_a2.sps"/>
+		<sound file="macaw_a3.sps"/>
+		<sound file="macaw_a4.sps"/>
+	</ambience>
+</root>

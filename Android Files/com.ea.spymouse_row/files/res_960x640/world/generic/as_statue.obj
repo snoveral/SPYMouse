@@ -1,0 +1,31 @@
+# 3ds Max Wavefront OBJ Exporter v0.94b - (c)2007 guruware
+# File Created: 05.05.2011 13:46:29
+
+mtllib as_statue.mtl
+
+#
+# object as_statue
+#
+
+v  -16.2321 -0.2000 -17.1336
+v  26.7551 -0.2000 -17.1336
+v  26.7551 -0.2000 35.7667
+v  -16.2321 -0.2000 35.7667
+# 4 vertices
+
+vn 0.0000 -1.0000 -0.0000
+# 1 vertex normals
+
+vt 0.1643 0.0077 0.0000
+vt 0.9716 0.0077 0.0000
+vt 0.9716 1.0011 0.0000
+vt 0.1643 1.0011 0.0000
+# 4 texture coords
+
+g as_statue
+usemtl 11___Default
+s 1
+f 1/1/1 2/2/1 3/3/1 
+f 3/3/1 4/4/1 1/1/1 
+# 2 faces
+

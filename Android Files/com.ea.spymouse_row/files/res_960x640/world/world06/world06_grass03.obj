@@ -1,0 +1,31 @@
+# 3ds Max Wavefront OBJ Exporter v0.94b - (c)2007 guruware
+# File Created: 24.02.2011 15:27:59
+
+mtllib world06_grass03.mtl
+
+#
+# object world06_grass03
+#
+
+v  -132.1919 0.0050 -28.8977
+v  -51.7216 0.0050 -28.8977
+v  -51.7216 0.0050 12.7320
+v  -132.1920 0.0050 12.7320
+# 4 vertices
+
+vn 0.0000 -1.0000 -0.0000
+# 1 vertex normals
+
+vt -0.0002 0.5071 0.0000
+vt 0.1887 0.5071 0.0000
+vt 0.1887 0.6048 0.0000
+vt -0.0002 0.6048 0.0000
+# 4 texture coords
+
+g world06_grass03
+usemtl world06_map02
+s 1
+f 1/1/1 2/2/1 3/3/1 
+f 3/3/1 4/4/1 1/1/1 
+# 2 faces
+

@@ -1,0 +1,7 @@
+<root>
+	<mouse pose="0" flip="false" />
+	<title_text id="SQUEAK_IN_SPACE" />
+	<body_text id="SIS_TUTORIAL_4_ALT_8" />
+	<img file="popup_tutorials/squeak_mode02.png" />
+	<wifi_hint />
+</root>

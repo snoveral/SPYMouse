@@ -1,0 +1,6 @@
+<root>
+	<mouse pose="7" flip="true" />
+	<title_text id="LEVEL_GOALS_TITLE" />
+	<body_text id="LEVEL_GOALS_ALT_17" />
+	<img file="popup_tutorials/level_goals.png" />
+</root>

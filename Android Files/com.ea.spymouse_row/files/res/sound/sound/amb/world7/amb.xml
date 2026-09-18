@@ -1,0 +1,20 @@
+<root>
+	<loop file="bg_loop_map07.sps"/>
+	<ambience min_delay="1.0" max_delay="2.5">
+		<sound file="bg_macaw_a1.sps"/>
+		<sound file="bg_macaw_a2.sps"/>
+		<sound file="bg_macaw_a3.sps"/>
+		<sound file="bg_macaw_a4.sps"/>
+	</ambience>
+	<ambience min_delay="2.0" max_delay="5.0">
+		<sound file="bg_macaw_b1.sps"/>
+		<sound file="bg_macaw_b2.sps"/>
+		<sound file="bg_macaw_b3.sps"/>
+	</ambience>
+	<ambience min_delay="3.5" max_delay="8.0">
+		<sound file="bg_volcano_1.sps"/>
+		<sound file="bg_volcano_2.sps"/>
+		<sound file="bg_volcano_3.sps"/>
+		<sound file="bg_volcano_4.sps"/>
+	</ambience>
+</root>

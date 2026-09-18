@@ -1,0 +1,9 @@
+<root>
+	<loop file="ext_rooftop_loop.sps"/>
+	<ambience min_delay="2.5" max_delay="6.0">
+		<sound file="gust_1.sps"/>
+		<sound file="gust_2.sps"/>
+		<sound file="gust_3.sps"/>
+		<sound file="gust_4.sps"/>
+	</ambience>
+</root>

@@ -1,0 +1,9 @@
+<root>
+	<loop file="ext_garden_loop.sps"/>
+	<ambience min_delay="1.5" max_delay="3.0">
+		<sound file="bird_b1.sps"/>
+		<sound file="bird_b2.sps"/>
+		<sound file="bird_b3.sps"/>
+		<sound file="bird_b4.sps"/>
+	</ambience>
+</root>

@@ -1,0 +1,26 @@
+# Files/folders to be removed for all iOS builds go in here.
+# You can use wild card characters in both paths and filenames (eg: world*/*.jpg will remove all world jpgs)
+
+# Misc files
+*Thumbs.db
+*.xml
+asset_delete_full.txt
+asset_delete_hd.txt
+Icon*.png
+
+# Unused maps
+map786
+
+# Scrolling levels source files
+map556/map556.jpg
+map568/map568.jpg
+map575/map575.jpg
+map565/map565.jpg
+map736/map736.jpg
+map555/map555.jpg
+map531/map531.jpg
+
+# Delete tool2d images
+world/world_*.png
+
+# Leave this comment at the end plz :D

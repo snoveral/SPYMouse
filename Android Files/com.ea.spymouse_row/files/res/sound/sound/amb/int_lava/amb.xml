@@ -1,0 +1,8 @@
+<root>
+	<loop file="int_lava_loop.sps"/>
+	<ambience min_delay="2.0" max_delay="5.0">
+		<sound file="rocks_1.sps"/>
+		<sound file="rocks_2.sps"/>
+		<sound file="rocks_3.sps"/>
+	</ambience>
+</root>

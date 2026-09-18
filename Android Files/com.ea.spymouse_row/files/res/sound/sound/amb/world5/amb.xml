@@ -1,0 +1,24 @@
+<root>
+	<loop file="bg_loop_map05.sps"/>
+	<ambience min_delay="1.5" max_delay="3.0">
+		<sound file="bg_carhonk_a1.sps"/>
+		<sound file="bg_carhonk_a2.sps"/>
+		<sound file="bg_carhonk_a3.sps"/>
+		<sound file="bg_carhonk_a4.sps"/>
+		<sound file="bg_carhonk_a5.sps"/>
+		<sound file="bg_carhonk_a6.sps"/>
+		<sound file="bg_carhonk_a7.sps"/>
+	</ambience>
+	<ambience min_delay="2.0" max_delay="5.5">
+		<sound file="bg_carhonk_b1.sps"/>
+		<sound file="bg_carhonk_b2.sps"/>
+		<sound file="bg_carhonk_b3.sps"/>
+	</ambience>
+	<ambience min_delay="2.5" max_delay="5.0">
+		<sound file="bg_drill_1.sps"/>
+		<sound file="bg_drill_2.sps"/>
+		<sound file="bg_drill_3.sps"/>
+		<sound file="bg_drill_4.sps"/>
+		<sound file="bg_drill_5.sps"/>
+	</ambience>
+</root>

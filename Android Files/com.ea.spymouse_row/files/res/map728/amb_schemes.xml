@@ -1,0 +1,6 @@
+<floors>
+	<floor id="0" scheme="int_apartment"/>
+	<floor id="1" scheme="int_apartment"/>
+	<floor id="2" scheme="ext_rooftop"/>
+	<floor id="3" scheme="ext_alley"/>
+</floors>

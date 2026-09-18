@@ -1,0 +1,9 @@
+<root>
+	<loop file="int_house_fire_loop.sps"/>
+	<ambience min_delay="2.0" max_delay="5.0">
+		<sound file="bird_filter_b1.sps"/>
+		<sound file="bird_filter_b2.sps"/>
+		<sound file="bird_filter_b3.sps"/>
+		<sound file="bird_filter_b4.sps"/>
+	</ambience>
+</root>

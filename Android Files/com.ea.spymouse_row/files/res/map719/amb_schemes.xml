@@ -1,0 +1,4 @@
+<floors>
+	<floor id="0" scheme="int_japan"/>
+	<floor id="1" scheme="int_stone"/>
+</floors>

@@ -1,0 +1,35 @@
+
+<!--
+cx 		= cell x 
+cy 		= cell y
+Position 0,0 is the top left. 
+
+delay 	= frame speed in seconds, 1.0 = one second
+
+ox		= frame position offset x
+oy 		= frame position offset y
+
+-->
+<Animation version="1" image="sprites/browncat_string.png" frameWidth="32" frameHeight="32">
+	<Sequence name="playing">
+		<Frame cx="7" cy="0" delay="0.2" ox="12" oy="13.5"/>
+		<Frame cx="0" cy="1" delay="0.2" ox="12" oy="12.75"/>
+		<Frame cx="1" cy="1" delay="0.2" ox="12" oy="12.5"/>
+		<Frame cx="2" cy="1" delay="0.2" ox="12" oy="12.5"/>
+		<Frame cx="3" cy="1" delay="0.2" ox="12" oy="12.5"/>
+		<Frame cx="4" cy="1" delay="0.2" ox="12" oy="12.75"/>
+		<Frame cx="6" cy="1" delay="0.2" ox="15.75" oy="11"/>
+		<Frame cx="0" cy="0" delay="0.2" ox="15.75" oy="11"/>
+		<Frame cx="1" cy="0" delay="0.2" ox="15.75" oy="11"/>
+		<Frame cx="2" cy="0" delay="0.2" ox="15.75" oy="11"/>
+		<Frame cx="3" cy="0" delay="0.2" ox="15.75" oy="11"/>
+		<Frame cx="4" cy="0" delay="0.2" ox="15.75" oy="11"/>
+		<Frame cx="5" cy="0" delay="0.2" ox="15.75" oy="11"/>
+		<Frame cx="6" cy="0" delay="0.2" ox="15.75" oy="11"/>
+		<Frame cx="5" cy="1" delay="0.2" ox="15.75" oy="11"/>
+		<Frame cx="6" cy="1" delay="0.2" ox="15.75" oy="11"/>
+		<Frame cx="5" cy="1" delay="0.2" ox="15.75" oy="11"/>
+		<Frame cx="6" cy="1" delay="0.2" ox="15.75" oy="11"/>
+
+	</Sequence>
+</Animation>

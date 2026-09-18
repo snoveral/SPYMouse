@@ -1,0 +1,31 @@
+# 3ds Max Wavefront OBJ Exporter v0.94b - (c)2007 guruware
+# File Created: 06.08.2010 17:20:12
+
+mtllib world01_background_main.mtl
+
+#
+# object world01_background_main
+#
+
+v  -199.6913 0.0250 133.1275
+v  -199.6913 0.0250 -133.1275
+v  199.6913 0.0250 133.1275
+v  199.6913 0.0250 -133.1275
+# 4 vertices
+
+vn 0.0000 -1.0000 -0.0000
+# 1 vertex normals
+
+vt 0.0000 1.0000 0.0000
+vt 0.0000 0.0000 0.0000
+vt 1.0000 1.0000 0.0000
+vt 1.0000 0.0000 0.0000
+# 4 texture coords
+
+g world01_background_main
+usemtl world01_map01
+s 1
+f 1/1/1 2/2/1 3/3/1 
+f 4/4/1 3/3/1 2/2/1 
+# 2 faces
+

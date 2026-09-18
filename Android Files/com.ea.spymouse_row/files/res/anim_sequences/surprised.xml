@@ -1,0 +1,23 @@
+
+<!--
+cx 		= cell x 
+cy 		= cell y
+Position 0,0 is the top left. 
+
+delay 	= frame speed in seconds, 1.0 = one second
+
+ox		= frame position offset x
+oy 		= frame position offset y
+
+-->
+<Animation version="1" image="sprites/player_surprised.png" frameWidth="37" frameHeight="37">
+
+	<Sequence name="surprised1">
+		<Frame cx="0" cy="0" delay="0.1" ox="0" oy="0"/>
+		<Frame cx="1" cy="0" delay="0.1" ox="0" oy="0"/>
+		<Frame cx="0" cy="0" delay="0.1" ox="0" oy="0"/>
+		<Frame cx="1" cy="0" delay="0.1" ox="0" oy="0"/>
+		<Frame cx="0" cy="0" delay="0.1" ox="0" oy="0"/>
+		<Frame cx="1" cy="0" delay="0.1" ox="0" oy="0"/>
+	</Sequence>
+</Animation>
