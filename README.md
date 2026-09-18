@@ -16,7 +16,7 @@ The ".apk" file is a launcher that loads the game files and therefore brings you
 The "ANDROID Files" Folder is the aforementioned "Game Files" that are being loaded by the launcher.
 
 ## How To Play
-Head over to the HowToPlay.md file and follow the steps given.
+Head over to the Installation.md file and follow the steps given.
 
 ## Take Note
 - That the game will not work on newer Devices, since this game is built on code that's as old as 2011.
