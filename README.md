@@ -14,9 +14,9 @@ Special Thanks to TelephoneActive1539 for archiving this game.
 Head over to the Installation.md file and follow the steps given.
 
 ## Files and What They Do
-- In Android Files folder...
-  "com.ea.spymouse_row" is the asset folder for SPYMouse.
-  "SPYMouse.apk" is the launcher used for loading the "com.ea.spymouse_row" assets folder
+### - Android Files Folder
+- "com.ea.spymouse_row" is the asset folder for SPYMouse.
+- "SPYMouse.apk" is the launcher used for loading the "com.ea.spymouse_row" assets folder.
 
 ## Take Note
 - That the game will not work on newer Devices, since this game is built on code that's as old as 2011.
